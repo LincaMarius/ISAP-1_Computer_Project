@@ -1,11 +1,11 @@
 # Improved SAP Computer
 
-    The improved version of the SAP computer
-
+The improved version of the SAP computer
 
 By: Lincă Marius Gheorghe.
 
 Pitești, Argeș, România, Europe.
+
 https://github.com/LincaMarius/ISAP-Computer
 
 
