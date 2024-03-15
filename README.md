@@ -1,19 +1,17 @@
 # Improved SAP Computer
 
-The improved version of the SAP computer
+    The improved version of the SAP computer
 
 
 By: Lincă Marius Gheorghe
-
 Pitești, Argeș, România, Europe.
-
 https://github.com/LincaMarius/ISAP-Computer
 
 
 ## About the project, brief description
 
-The goal of this project is to create a more efficient version of the SAP (Simple As Possible) Computer.
-
+    The goal of this project is to create a more efficient version of the SAP (Simple As Possible) Computer.
+    
 Credits are given to Albert Paul Malvino and Jerald A. Brown for introducing this architecture in their book Digital Computer Electronics and Ben Eater for implementing his own version of the SAP Computer using IC's and breadboards.
 
 References: 
@@ -42,6 +40,18 @@ References:
 - Testing the new product
 - Final product assembly/production
 - Subsequent revisions of the product.
+
+
+## The way the Versions will be defined:
+The project starts from the implementation of a computer that has the same functionality as the SAP1 (Simple As Possible) computer.
+
+Implementation will be done by adding one functional block from the block diagram, a change that will increase the computer version by 0.1.
+
+The electrical diagram will be as similar as possible to the original diagram described in the book "Digital Computer Electronics - Albert Paul Malvino". I may use other ICs to implement the function blocks, but I want the functionality to be the same. At the end when all the functional blocks of the block diagram of the calculator will be implemented, this will represent version 1.0.
+
+Any subsequent modification that will improve operation, add improved functionality to the computer, or introduce a new instruction. These changes will have a weight of 0.1 on the computer version.
+
+Each version will be presented in its own directory and will have a video presentation on my YouTube channel: https://www.youtube.com/channel/UCDg7CNJKZFqwz0wlEnsU7Ng
 
 
 
