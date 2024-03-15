@@ -3,14 +3,15 @@
     The improved version of the SAP computer
 
 
-By: Lincă Marius Gheorghe
+By: Lincă Marius Gheorghe.
+
 Pitești, Argeș, România, Europe.
 https://github.com/LincaMarius/ISAP-Computer
 
 
 ## About the project, brief description
 
-    The goal of this project is to create a more efficient version of the SAP (Simple As Possible) Computer.
+The goal of this project is to create a more efficient version of the SAP (Simple As Possible) Computer.
     
 Credits are given to Albert Paul Malvino and Jerald A. Brown for introducing this architecture in their book Digital Computer Electronics and Ben Eater for implementing his own version of the SAP Computer using IC's and breadboards.
 
