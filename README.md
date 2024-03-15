@@ -54,5 +54,25 @@ Any subsequent modification that will improve operation, add improved functional
 
 Each version will be presented in its own directory and will have a video presentation on my YouTube channel: https://www.youtube.com/channel/UCDg7CNJKZFqwz0wlEnsU7Ng
 
-
+## Versions will be as follows:
+### Version 0.1
+- "Control Panel" block implementation and "debug keyboard" implementation
+### Version 0.2
+- implementation of the "Output Register" block and the "Display" block
+### Version 0.3
+- "RAM" block implementation
+### Version 0.4
+- "MAR" block implementation
+### Version 0.5
+- "Program Counter" block implementation
+### Version 0.6
+- "Accumulator" block implementation
+### Version 0.7
+- "ALU" block implementation
+### Version 0.8
+- "Register B" block implementation
+### Version 0.9
+- "Instruction Register" block implementation
+### Version 1.0
+- "Control" block implementation and software testing
 
