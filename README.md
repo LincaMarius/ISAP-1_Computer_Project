@@ -76,8 +76,11 @@ Each version will be presented in its own directory and will have a video presen
 ### Version 1.0
 - "Control" block implementation and software testing
 
-# Computer block diagram
+## Computer block diagram
 The original Block Diagram of the SAP-1 computer can be found in the book "Digital Computer Electronics" by Albert Paul Malvino and Jerald A. Brown, on page 141 and is labeled Figure 10-1.
+
+In the following figure I present to you a reproduction of the block diagram of the SAP-1 computer
+![ Figure 1 ](Figure 1.png)
 
 As we learned at school, a computer can be represented by 3 distinct functional blocks: CPU, Memory and I/O. They are interconnected by 3 buses: the data bus, the address bus and the command bus.
 
