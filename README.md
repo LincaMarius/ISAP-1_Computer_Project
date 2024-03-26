@@ -103,5 +103,9 @@ So I propose to redraw the Block Diagram of the SAP-1 computer so that we can ea
 
 ![ Figure 4 ](./Figure4.png)
 
+I presented a much more detailed version in the following figure.
+
+![ Figure 5 ](./Figure5.png)
+
 Now I will continue to carry out the following stages of this project: electrical scheme design in KiCAD, circuit simulation in Logisim Evolution, physical realization of the circuit using breadboards and functional testing.
 
