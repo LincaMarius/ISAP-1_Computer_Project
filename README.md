@@ -19,7 +19,7 @@ References:
 - Ben Eater's 8 Bit computer videos. Building an 8-bit breadboard computer! https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU
 - Digital Computer Electronics - Albert Paul Malvino (Page 140)
 
-An interesting fact is that I discovered a girl who made the SAP-1 calculator in October 2011, and Ben Eater in February 2015, so 4 years earlier! This is that video: https://www.youtube.com/watch?v=KkTMICyp6xA
+An interesting fact is that I discovered a girl who made the SAP-1 calculator using breadboards in October 2011, and Ben Eater in February 2015, so 4 years earlier! This is that video: https://www.youtube.com/watch?v=KkTMICyp6xA
 
 ## Design requirements:
 - Technology used: 5V TTL Logic
@@ -58,7 +58,7 @@ Each version will be presented in its own directory and will have a video presen
 
 ## Versions will be as follows:
 ### Version 0.1
-- "Control Panel" block implementation and "debug keyboard" implementation
+- "Control Panel" block implementation and "Input keyboard" implementation
 ### Version 0.2
 - implementation of the "Output Register" block and the "Display" block
 ### Version 0.3
