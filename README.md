@@ -101,7 +101,7 @@ If we check the diagram of the SAP-1 computer we notice that these functional bl
 
 So I propose to redraw the Block Diagram of the SAP-1 computer so that we can easily separate these elements: CPU, RAM and I/O, as well as we can easily identify the three buses. We get the following block diagram.
 
-
+![ Figure 4 ](./Figure4.png)
 
 Now I will continue to carry out the following stages of this project: electrical scheme design in KiCAD, circuit simulation in Logisim Evolution, physical realization of the circuit using breadboards and functional testing.
 
