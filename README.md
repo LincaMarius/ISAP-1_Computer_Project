@@ -85,19 +85,23 @@ In the following figure, I present to you a reproduction of the block diagram of
 
 ![ Figure 1 ](./Figure1.png)
 
+I studied the original electronic schematic of the SAP-1 computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure
+
+![ Figure 2 ](./Figure2.png)
+
 As we learned at school, a computer can be represented by 3 distinct functional blocks: CPU, Memory and I/O. They are interconnected by 3 buses: the Data Bus, the Address Bus and the Control Bus.
 
 This fact is also presented by the authors in the book in a simplified form on page 213 in figure 13-1.
 
 A diagram representing a computing system consisting of functional blocks CPU, RAM, I/O and buses is presented in the following figure.
 
-![ Figure 2 ](./Figure2.png)
+![ Figure 3 ](./Figure3.png)
 
 If we check the diagram of the SAP-1 computer we notice that these functional blocks are not grouped, we also cannot identify the three buses on the diagram. We are presented with only the data bus labeled "W bus".
 
 So I propose to redraw the Block Diagram of the SAP-1 computer so that we can easily separate these elements: CPU, RAM and I/O, as well as we can easily identify the three buses. We get the following block diagram.
 
-![ Figure 3 ](./Figure3.png)
+
 
 Now I will continue to carry out the following stages of this project: electrical scheme design in KiCAD, circuit simulation in Logisim Evolution, physical realization of the circuit using breadboards and functional testing.
 
