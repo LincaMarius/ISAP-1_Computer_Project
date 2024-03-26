@@ -85,7 +85,7 @@ In the following figure, I present to you a reproduction of the block diagram of
 
 ![ Figure 1 ](./Figure1.png)
 
-I studied the original electronic schematic of the SAP-1 computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure
+I studied the original electronic schematic of the SAP-1 computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure.
 
 ![ Figure 2 ](./Figure2.png)
 
