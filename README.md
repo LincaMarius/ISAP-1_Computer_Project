@@ -89,7 +89,6 @@ I studied the original electronic schematic of the SAP-1 computer and recreated 
 
 ![ Figure 2 ](./Figure2.png)
 
-
 As we learned at school, a computer can be represented by 3 distinct functional blocks: CPU, Memory and I/O. They are interconnected by 3 buses: the Data Bus, the Address Bus and the Control Bus.
 
 This fact is also presented by the authors in the book in a simplified form on page 213 in figure 13-1.
