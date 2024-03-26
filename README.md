@@ -17,12 +17,12 @@ Credits are given to Albert Paul Malvino and Jerald A. Brown for introducing thi
 
 References: 
 - Ben Eater's 8 Bit computer videos. Building an 8-bit breadboard computer! https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU
-- Digital Computer Electronics - Albert Paul Malvino (Page 140)
+- Digital Computer Electronics - Albert Paul Malvino (Page 141).
 
-An interesting fact is that I discovered a girl who made the SAP-1 calculator using breadboards in October 2011, and Ben Eater in February 2015, so 4 years earlier! This is that video: https://www.youtube.com/watch?v=KkTMICyp6xA
+An interesting fact is that I discovered a girl who made the SAP-1 calculator using breadboards in October 2011, and Ben Eater in February 2015, so 4 years earlier! This is that video: https://www.youtube.com/watch?v=KkTMICyp6xA. She built the SAP-1 computer using breadboards for a school project. It's a pity that the video presented is not of better quality.
 
 ## Design requirements:
-- Technology used: 5V TTL Logic
+- Technology used: TTL Logic
 - Supply voltage: 5 Volts DC
 - Power consumption: Maximum 10 Watts
 - Power source: External
@@ -35,14 +35,14 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 - Project completion deadline: as soon as possible.
 
 ## Stages of the project:
-- Designing a block diagram for the computer
-- Electrical diagram design using one of the programs: KiCAD, Altium Designer, Eagle, OrCAD, Fusion 360, Proteus, etc. - I will use KiCAD
-- Simulate functionality using one of the programs: Logisim, Logisim Evolution, LTspice, NI Multisim, Proteus, OrCAD, TINA, CircuitMaker, Simulink, etc. I will use Ligisim
-- Prototype creation and functionality testing
-- PCB design
-- Testing the new product
-- Final product assembly/production
-- Subsequent revisions of the product.
+- Design improvement by analyzing and modifying the block diagram.
+- Simulate functionality using one of the programs: Logisim, Logisim Evolution, LTspice, NI Multisim, Proteus, OrCAD, TINA, CircuitMaker, Simulink, etc. I will use Ligisim.
+- Electrical diagram design using one of the programs: KiCAD, Altium Designer, Eagle, OrCAD, Fusion 360, Proteus, etc. - I will use KiCAD.
+- Prototype creation and functionality testing.
+- PCB design.
+- Testing the new product.
+- Final product assembly.
+- Subsequent revisions of the product as often as necessary.
 
 
 ## The way the Versions will be defined:
@@ -78,7 +78,7 @@ Each version will be presented in its own directory and will have a video presen
 ### Version 1.0
 - "Control" block implementation and software testing
 
-## Computer block diagram
+## Stage 1 - Design improvement by analyzing and modifying the block diagram
 The original Block Diagram of the SAP-1 computer can be found in the book "Digital Computer Electronics" by Albert Paul Malvino and Jerald A. Brown, on page 141 and is labeled Figure 10-1.
 
 In the following figure, I present to you a reproduction of the block diagram of the SAP-1 computer.
@@ -107,5 +107,11 @@ I presented a much more detailed version in the following figure.
 
 ![ Figure 5 ](./Figure5.png)
 
-Now I will continue to carry out the following stages of this project: electrical scheme design in KiCAD, circuit simulation in Logisim Evolution, physical realization of the circuit using breadboards and functional testing.
+### Problem 1 - The computer cannot write to the RAM memory.
+From the analysis of the block diagram, I found the first problem that the computer cannot store data in the RAM memory
+so the current configuration only allows reading the contents of the RAM memory ROM-specific behavior.
+
+The computer stores the result of arithmetic operations only in register A.
+
+
 
