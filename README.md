@@ -22,15 +22,15 @@ References:
 An interesting fact is that I discovered a girl who made the SAP-1 calculator using breadboards in October 2011, and Ben Eater in February 2015, so 4 years earlier! This is that video: https://www.youtube.com/watch?v=KkTMICyp6xA. She built the SAP-1 computer using breadboards for a school project. It's a pity that the video presented is not of better quality.
 
 ## Stages of the project:
-- 1 - Design requirements;
-- 2 - Design improvement by analyzing and modifying the block diagram.
-- 3 - Simulate functionality using one of the programs: Logisim, Logisim Evolution, LTspice, NI Multisim, Proteus, OrCAD, TINA, CircuitMaker, Simulink, etc. I will use Ligisim.
-- 4 - Electrical diagram design using one of the programs: KiCAD, Altium Designer, Eagle, OrCAD, Fusion 360, Proteus, etc. - I will use KiCAD.
-- 5 - Prototype creation and functionality testing.
-- 6 - PCB design.
-- 7 - Testing the new product.
-- 8 - Final product assembly.
-- 9 - Subsequent revisions of the product as often as necessary.
+1 - Design requirements;
+2 - Design improvement by analyzing and modifying the block diagram.
+3 - Simulate functionality using one of the programs: Logisim, Logisim Evolution, LTspice, NI Multisim, Proteus, OrCAD, TINA, CircuitMaker, Simulink, etc. I will use Ligisim.
+4 - Electrical diagram design using one of the programs: KiCAD, Altium Designer, Eagle, OrCAD, Fusion 360, Proteus, etc. - I will use KiCAD.
+5 - Prototype creation and functionality testing.
+6 - PCB design.
+7 - Testing the new product.
+8 - Final product assembly.
+9 - Subsequent revisions of the product as often as necessary.
 
 ## Stage 1 - Design requirements:
 - Technology used: TTL Logic or CMOS Logic
