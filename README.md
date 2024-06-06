@@ -23,6 +23,7 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 
 ## Stages of the project:
 1 - Design requirements;\
+[ 1 - Design requirements ](./Stage1/Stage1.md) \
 2 - Design improvement by analyzing and modifying the block diagram;\
 3 - Simulate functionality using one of the programs: Logisim, Logisim Evolution, LTspice, NI Multisim, Proteus, OrCAD, TINA, CircuitMaker, Simulink, etc. I will use Ligisim;\
 4 - Electrical diagram design using one of the programs: KiCAD, Altium Designer, Eagle, OrCAD, Fusion 360, Proteus, etc. - I will use KiCAD;\
@@ -32,18 +33,9 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 8 - Final product assembly;\
 9 - Subsequent revisions of the product as often as necessary.
 
-## Stage 1 - Design requirements:
-- Technology used: TTL Logic or CMOS Logic
-- Supply voltage: 5 Volts DC for TTL variant or 3 - 18 Volts DC for CMOS variant
-- Power consumption: Maximum 10 Watts
-- Power source: External
-- Final product weight: As low as possible
-- Final product dimensions: As small as possible
-- Final product production cost: As low as possible
-- Housing characteristics: Not applicable
-- Product testing mode: Manual and/or automatic testing
-- Target users: Didactic use, hobbyists
-- Project completion deadline: as soon as possible.
+
+
+
 
 ## Stage 2 - Design improvement by analyzing and modifying the block diagram
 The original Block Diagram of the SAP-1 computer can be found in the book "Digital Computer Electronics" by Albert Paul Malvino and Jerald A. Brown, on page 141 and is labeled Figure 10-1.
