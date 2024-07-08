@@ -127,3 +127,81 @@ If we check the diagram of the SAP-1 computer we notice that these functional bl
 So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can easily separate these elements: CPU, RAM and I/O, as well as we can easily identify the three buses. We get the following block diagram.
 
 ![ Figure 10 ](/Pictures/Figure10.png)
+
+Now I will do a re-layout of all the functional blocks so that we separate the CPU side from the memory and I/O. Thus, we obtained the following block diagram.
+
+![ Figure 11 ](/Pictures/Figure11.png)
+
+## Improving the system design by expanding the number of inputs-outputs
+
+From figure 11 we can see that the system can only access two input/output devices. To improve I/O capabilities make the address bus accessible for I/O as well.
+
+The new block diagram can be seen in figure 12.
+
+By using an address decoder we can access a maximum of 16 inputs and 16 outputs.
+
+![ Figure 12 ](/Pictures/Figure12.png)
+
+## Improved system design by expanding accessed memory
+
+The address bus is 4 bits so the maximum number of accessible memory locations will be: 2^4 = 16 locations. 
+
+For very simple programs it may be enough. But is it possible to access more memory?
+
+The simplest solution to this problem that I can think of, without changing the current structure very much, is to add a 16-byte ROM (or RAM that will be treated as Read-Only by the system) and add an additional control.
+
+This memory becomes program memory, the old one will be data memory. The selection between the two types of memory is done with a control signal on which we write /PM from program memory, as we can see in figure 13.
+
+![ Figure 13 ](/Pictures/Figure13.png)
+
+## Improved system design by using a memory bank system
+
+The previous solution doubles the accessed memory, resulting in 16 bytes of program memory and 16 bytes of data memory.
+
+But I want to be able to access a lot more memory. The solution I thought of is to use a memory bank system.
+
+A first variant is to use an 8-bit register to store the value of the accessed memory bank. Thus, we have 2^8 = 256 values for the bank. So, the maximum memory capacity that can be accessed is 16 x 256 = 4096 bytes.
+
+In total 8k bytes of memory can be accessed. We can thus have a maximum of 256 programs of 16 bytes each.
+
+The applied solution is presented in figure 14.
+
+![ Figure 14 ](/Pictures/Figure14.png)
+
+Each register that stores the value for the bank is attached to the system as an input-output port. We can read the information from the register but we can also write a new value to that register.
+
+Since there are already many people who have built the version proposed by Ben Eater, or even bought the kit sold by him, they are in the situation of having only 16 bytes of memory in their computer.
+
+Changing to the 4k byte system almost means rebuilding the computer. So I will use a variant of the memory system that only uses 16 bytes of RAM and the changes to the computer are minimal.
+
+This simpler and easier to implement variant is the one where we use the bank register only for the ROM memory.
+
+Loading this register can be done manually directly from the numeric keypad. Thus, I can manually select any of a maximum of 256 programs of 16 bytes each.
+
+A more complicated variant involves loading this register by accessing it as an input-output port from the program. This solution is shown in figure 15.
+
+![ Figure 15 ](/Pictures/Figure15.png)
+
+This is the version that I will use to implement the memory system.
+
+## Improved system design by removing address multiplexer
+
+If we remove from the block diagram the memory and the input-output system, only part of the CPU remains, as can be seen in figure 16.
+
+![ Figure 16 ](/Pictures/Figure16.png)
+
+Since the program is no longer entered manually, but resides in ROM, it follows that the Address MUX block is no longer needed, so it must be removed. This results in the final system diagram of the CPU in the SAP-1 computer shown in figure 17.
+
+![ Figure 17 ](/Pictures/Figure17.png)
+
+## Summary
+
+The final block diagram of the CPU part of the system is:
+
+![ Figure 17 ](/Pictures/Figure17.png)
+
+The final block diagram of the Computer Memory system is:
+
+![ Figure 15 ](/Pictures/Figure15.png)
+
+Optimization of the SAP-1 computer instruction set for the final block diagram follows.
