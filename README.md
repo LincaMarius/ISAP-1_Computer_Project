@@ -102,3 +102,28 @@ The block diagram of the system that also has the flags register is shown in fig
 
 ![ Figure 7 ](/Pictures/Figure7.png)
 
+## Improved system design by adding an interrupt entry
+
+We have the Binary Input Keyboard block, and to make this keyboard interactive while running programs, the computer needs to see a confirmation signal from the operator, the equivalent of the Enter key on a normal computer.
+
+I introduced the signal marked INT which means interrupt, in order to ensure the response for the computer from the operator after he has entered the data correctly.
+
+The new block diagram is presented in figure 8.
+
+![ Figure 8 ](/Pictures/Figure8.png)
+
+## Identification of computer components
+
+As we learned at school, a computer can be represented by 3 distinct functional blocks: CPU, Memory and I/O. They are interconnected by 3 buses: the Data Bus, the Address Bus and the Control Bus.
+
+This fact is also presented by the authors in the book in a simplified form on page 213 in figure 13-1.
+
+A diagram representing a computing system consisting of functional blocks CPU, RAM, I/O and buses is presented in the following figure.
+
+![ Figure 9 ](/Pictures/Figure9.png)
+
+If we check the diagram of the SAP-1 computer we notice that these functional blocks are not grouped, we also cannot identify the three buses on the diagram. We are presented with only the data bus labeled "W bus".
+
+So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can easily separate these elements: CPU, RAM and I/O, as well as we can easily identify the three buses. We get the following block diagram.
+
+![ Figure 10 ](/Pictures/Figure10.png)
