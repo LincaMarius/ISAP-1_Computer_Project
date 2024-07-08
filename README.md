@@ -1,6 +1,8 @@
 # SAP 1 Computer
 
-The improved version of the SAP computer
+The improved version of the SAP-1 computer.
+
+This is the SAP-1 computer functionality optimization process at the block diagram level that I went through.
 
 By: Lincă Marius Gheorghe.
 
