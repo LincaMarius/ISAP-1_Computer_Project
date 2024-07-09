@@ -134,17 +134,17 @@ This fact is also presented by the authors in the book in a simplified form on p
 
 A diagram representing a computing system consisting of functional blocks CPU, RAM, I/O and buses is presented in the following figure.
 
-![ Figure 9 ](/Pictures/Figure9.png)
+![ Figure 10 ](/Pictures/Figure10.png)
 
 If we check the diagram of the SAP-1 computer we notice that these functional blocks are not grouped, we also cannot identify the three buses on the diagram. We are presented with only the data bus labeled "W bus".
 
 So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can easily separate these elements: CPU, RAM and I/O, as well as we can easily identify the three buses. We get the following block diagram.
 
-![ Figure 10 ](/Pictures/Figure10.png)
+![ Figure 11 ](/Pictures/Figure11.png)
 
 Now I will do a re-layout of all the functional blocks so that we separate the CPU side from the memory and I/O. Thus, we obtained the following block diagram.
 
-![ Figure 11 ](/Pictures/Figure11.png)
+![ Figure 12 ](/Pictures/Figure12.png)
 
 ## Improving the system design by expanding the number of inputs-outputs
 
