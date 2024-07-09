@@ -194,9 +194,9 @@ This simpler and easier to implement variant is the one where we use the bank re
 
 Loading this register can be done manually directly from the numeric keypad. Thus, I can manually select any of a maximum of 256 programs of 16 bytes each.
 
-A more complicated variant involves loading this register by accessing it as an input-output port from the program. This solution is shown in figure 15.
+A more complicated variant involves loading this register by accessing it as an input-output port from the program. This solution is shown in figure 16.
 
-![ Figure 15 ](/Pictures/Figure15.png)
+![ Figure 16 ](/Pictures/Figure16.png)
 
 This is the version that I will use to implement the memory system.
 
