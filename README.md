@@ -148,13 +148,15 @@ Now I will do a re-layout of all the functional blocks so that we separate the C
 
 ## Improving the system design by expanding the number of inputs-outputs
 
-From figure 11 we can see that the system can only access two input/output devices. To improve I/O capabilities make the address bus accessible for I/O as well.
+From figure 12 we can see that the system can only access two input/output devices. 
 
-The new block diagram can be seen in figure 12.
+To improve I/O capabilities make the address bus accessible for I/O as well.
+
+The new block diagram can be seen in figure 13.
 
 By using an address decoder we can access a maximum of 16 inputs and 16 outputs.
 
-![ Figure 12 ](/Pictures/Figure12.png)
+![ Figure 13 ](/Pictures/Figure13.png)
 
 ## Improved system design by expanding accessed memory
 
