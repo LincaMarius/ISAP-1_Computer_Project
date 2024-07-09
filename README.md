@@ -202,22 +202,22 @@ This is the version that I will use to implement the memory system.
 
 ## Improved system design by removing address multiplexer
 
-If we remove from the block diagram the memory and the input-output system, only part of the CPU remains, as can be seen in figure 16.
-
-![ Figure 16 ](/Pictures/Figure16.png)
-
-Since the program is no longer entered manually, but resides in ROM, it follows that the Address MUX block is no longer needed, so it must be removed. This results in the final system diagram of the CPU in the SAP-1 computer shown in figure 17.
+If we remove from the block diagram the memory and the input-output system, only part of the CPU remains, as can be seen in figure 17.
 
 ![ Figure 17 ](/Pictures/Figure17.png)
+
+Since the program is no longer entered manually, but resides in ROM, it follows that the Address MUX block is no longer needed, so it must be removed. This results in the final system diagram of the CPU in the SAP-1 computer shown in figure 18.
+
+![ Figure 18 ](/Pictures/Figure18.png)
 
 ## Summary
 
 The final block diagram of the CPU part of the system is:
 
-![ Figure 17 ](/Pictures/Figure17.png)
+![ Figure 18 ](/Pictures/Figure18.png)
 
 The final block diagram of the Computer Memory system is:
 
-![ Figure 15 ](/Pictures/Figure15.png)
+![ Figure 15 ](/Pictures/Figure16.png)
 
 Optimization of the SAP-1 computer instruction set for the final block diagram follows.
