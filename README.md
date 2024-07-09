@@ -114,6 +114,18 @@ The new block diagram is presented in figure 8.
 
 ![ Figure 8 ](/Pictures/Figure8.png)
 
+This modification requires an additional control input for the Control Unit module.
+
+If the control unit is made with combinational logic, we will have a greater complexity of it, so we will use more logic gates for its implementation.
+
+If the control unit is made using ROM-programmed logic this new entry will double the required ROM locations.
+
+That's why I decided to connect the INT signal coming from the keyboard to the Flags register.
+
+The new block diagram is shown in figure 9.
+
+![ Figure 9 ](/Pictures/Figure9.png)
+
 ## Identification of computer components
 
 As we learned at school, a computer can be represented by 3 distinct functional blocks: CPU, Memory and I/O. They are interconnected by 3 buses: the Data Bus, the Address Bus and the Control Bus.
