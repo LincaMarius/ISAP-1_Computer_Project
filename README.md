@@ -166,9 +166,9 @@ For very simple programs it may be enough. But is it possible to access more mem
 
 The simplest solution to this problem that I can think of, without changing the current structure very much, is to add a 16-byte ROM (or RAM that will be treated as Read-Only by the system) and add an additional control.
 
-This memory becomes program memory, the old one will be data memory. The selection between the two types of memory is done with a control signal on which we write /PM from program memory, as we can see in figure 13.
+This memory becomes program memory, the old one will be data memory. The selection between the two types of memory is done with a control signal on which we write /PM from program memory, as we can see in figure 14.
 
-![ Figure 13 ](/Pictures/Figure13.png)
+![ Figure 14 ](/Pictures/Figure14.png)
 
 ## Improved system design by using a memory bank system
 
