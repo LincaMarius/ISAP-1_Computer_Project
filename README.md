@@ -180,9 +180,9 @@ A first variant is to use an 8-bit register to store the value of the accessed m
 
 In total 8k bytes of memory can be accessed. We can thus have a maximum of 256 programs of 16 bytes each.
 
-The applied solution is presented in figure 14.
+The applied solution is presented in figure 15.
 
-![ Figure 14 ](/Pictures/Figure14.png)
+![ Figure 15 ](/Pictures/Figure15.png)
 
 Each register that stores the value for the bank is attached to the system as an input-output port. We can read the information from the register but we can also write a new value to that register.
 
