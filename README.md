@@ -220,13 +220,21 @@ The final block diagram of the Computer Memory system is:
 
 ![ Figure 16 ](/Pictures/Figure16.png)
 
-The final block diagram of the Computer Input system is:
+The final block diagram of the Input system of this computer is:
 
 ![ Figure 19 ](/Pictures/Figure19.png)
 
 We will have an input device in the form of a binary keyboard.
+
 Program memory bank register is an input-output device.
 
+The final block diagram of the Output system of this computer is:
+
+![ Figure 20 ](/Pictures/Figure20.png)
+
+The output device is the old Output Register, but modified by having access to the address bus.
+
+Thus, we can control the display format (unsigned, signed, hexadecimal, text), by sending commands to the output device on port 1, and data is sent on port 0.
 
 
 Optimization of the SAP-1 computer instruction set for the final block diagram follows.
