@@ -218,6 +218,15 @@ The final block diagram of the CPU part of the system is:
 
 The final block diagram of the Computer Memory system is:
 
-![ Figure 15 ](/Pictures/Figure16.png)
+![ Figure 16 ](/Pictures/Figure16.png)
+
+The final block diagram of the Computer Input system is:
+
+![ Figure 19 ](/Pictures/Figure19.png)
+
+We will have an input device in the form of a binary keyboard.
+Program memory bank register is an input-output device.
+
+
 
 Optimization of the SAP-1 computer instruction set for the final block diagram follows.
