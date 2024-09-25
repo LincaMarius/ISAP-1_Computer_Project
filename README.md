@@ -1,4 +1,4 @@
-# SAP 1 Computer
+# ISAP-1 Computer
 
 The improved version of the SAP-1 computer.
 
