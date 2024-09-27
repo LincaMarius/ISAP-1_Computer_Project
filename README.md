@@ -230,7 +230,7 @@ The final block diagram of the Computer Memory system is:
 
 The final block diagram of the Input system of this computer is:
 
-![ Figure 19 ](/Pictures/Figure20.png)
+![ Figure 20 ](/Pictures/Figure20.png)
 
 We will have an input device in the form of a binary keyboard.
 
@@ -238,7 +238,7 @@ Program memory bank register is an input-output device.
 
 The final block diagram of the Output system of this computer is:
 
-![ Figure 20 ](/Pictures/Figure20.png)
+![ Figure 21 ](/Pictures/Figure21.png)
 
 The output device is the old Output Register, but modified by having access to the address bus.
 
