@@ -214,7 +214,7 @@ The Control Unit block receives the Clock but also the Reset signal.
 
 I will rename the Memory Address Register block as Address Register.
 
-To make the design of the Control Unit easier, all control signals are considered active on the rising edge, so the structure of the ISAP-1 processor becomes:
+To make the design of the control block easier, all internal control signals are considered active on the rising edge, so the structure of the ISAP-1 processor becomes:
 
 ![ Figure 19 ](/Pictures/Figure19.png)
 
@@ -230,7 +230,7 @@ The final block diagram of the Computer Memory system is:
 
 The final block diagram of the Input system of this computer is:
 
-![ Figure 19 ](/Pictures/Figure19.png)
+![ Figure 19 ](/Pictures/Figure20.png)
 
 We will have an input device in the form of a binary keyboard.
 
