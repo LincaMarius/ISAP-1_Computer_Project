@@ -245,4 +245,6 @@ The output device is the old Output Register, but modified by having access to t
 Thus, we can control the display format (unsigned, signed, hexadecimal, text), by sending commands to the output device on port 1, and data is sent on port 0.
 
 
-Optimization of the SAP-1 computer instruction set for the final block diagram follows.
+Following is the optimization of the SAP-1 computer instruction set for the final block diagram that is present in this repository: \
+https://github.com/LincaMarius/ISAP-1_Computer_Instruction_Set
+
