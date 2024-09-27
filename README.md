@@ -210,6 +210,14 @@ Since the program is no longer entered manually, but resides in ROM, it follows 
 
 ![ Figure 18 ](/Pictures/Figure18.png)
 
+The Control Unit block receives the Clock but also the Reset signal.
+
+I will rename the Memory Address Register block as Address Register.
+
+To make the design of the Control Unit easier, all control signals are considered active on the rising edge, so the structure of the ISAP-1 processor becomes:
+
+
+
 ## Summary
 
 The final block diagram of the CPU part of the system is:
