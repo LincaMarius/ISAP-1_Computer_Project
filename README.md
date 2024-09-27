@@ -220,9 +220,9 @@ To make the design of the Control Unit easier, all control signals are considere
 
 ## Summary
 
-The final block diagram of the CPU part of the system is:
+The final block diagram of the ISAP-1 CPU part of the system is:
 
-![ Figure 18 ](/Pictures/Figure18.png)
+![ Figure 19 ](/Pictures/Figure19.png)
 
 The final block diagram of the Computer Memory system is:
 
