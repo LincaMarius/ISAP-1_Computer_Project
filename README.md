@@ -216,7 +216,7 @@ I will rename the Memory Address Register block as Address Register.
 
 To make the design of the Control Unit easier, all control signals are considered active on the rising edge, so the structure of the ISAP-1 processor becomes:
 
-
+![ Figure 19 ](/Pictures/Figure19.png)
 
 ## Summary
 
