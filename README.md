@@ -67,7 +67,7 @@ If we check the diagram of the SAP-1 computer we notice that these functional bl
 
 So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can easily separate these elements: CPU, RAM and I/O, as well as we can easily identify the three buses. We get the following block diagram.
 
-
+![ Figure 5 ](/Pictures/Figure5.png)
 
 ## Improved design by adding possibility for Program Counter to be preset
 
