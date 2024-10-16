@@ -53,6 +53,15 @@ The block diagram using signals only active high control signals, can be seen in
 
 ![ Figure 3 ](/Pictures/Figure3.png)
 
+### Identification of computer components
+
+As we learned at school, a computer can be represented by 3 distinct functional blocks: CPU, Memory and I/O. They are interconnected by 3 buses: the Data Bus, the Address Bus and the Control Bus.
+
+This fact is also presented by the authors in the book in a simplified form on page 213 in figure 13-1.
+
+A diagram representing a computing system consisting of functional blocks CPU, RAM, I/O and buses is presented in the following figure.
+
+![ Figure 4 ](/Pictures/Figure4.png)
 
 ## Improved design by adding possibility for Program Counter to be preset
 
