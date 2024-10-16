@@ -75,7 +75,7 @@ From the block diagram it can be seen that the Program Counter cannot be loaded 
 
 So the first, simplest modification is to make the Program Counter able to be loaded with any value present on the W bus, if the new LP control signal is active. As can be seen in the following figure represented in green.
 
-![ Figure 3 ](/Pictures/Figure3.png)
+![ Figure 30 ](/Pictures/Figure30.png)
 
 The ability to load numeric values into the Program Counter allows us to extend the computer's instruction set by implementing the unconditional jump instruction.
 
@@ -90,7 +90,7 @@ Thus, I removed the S3 switch set and introduced the Binary Input Keyboard block
 When the command signal EK is active the binary value entered by the operator is presented on the W bus. Thus, it can be loaded into RAM during programming or into Accumulator during normal program runs.
 The new elements introduced are represented in figure 4 in green.
 
-![ Figure 4 ](/Pictures/Figure4.png)
+![ Figure 40 ](/Pictures/Figure40.png)
 
 Switch group S1 can now be used to select the address where the desired value is to be saved.
 
@@ -106,7 +106,7 @@ Thus, according to the block diagram, the contents of the Program Counter must b
 
 Now we have a problem because a collision occurs on the W bus. This situation is shown in figure 5, where the collision areas are shown in red.
 
-![ Figure 5 ](/Pictures/Figure5.png)
+![ Figure 50 ](/Pictures/Figure50.png)
 
 To solve these problems, I propose the following solution:
 - The position of the Memory Address Register and Address MUX blocks is reversed in the block diagram,
