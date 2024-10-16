@@ -45,6 +45,15 @@ d.	Press button S4 to write the new value to memory,\
 e.	Repeat steps b, c and d until all necessary changes have been made, \
 f.	Move selector S2 to the RUN position, to run the program.
 
+In the diagram in figure 2 it can be seen that some of the control signals are active high and some are active low. This is due to the fact that the circuit diagram is optimized for the TTL integrated circuits used by the authors of the original design of the SAP-1 computer.
+
+To simplify and ease the process of designing the Control Block I propose that in this phase of the design we use only active high control signals. Thus, the time charts will be easier to understand.
+
+The block diagram using signals only active high control signals, can be seen in the following figure.
+
+![ Figure 3 ](/Pictures/Figure3.png)
+
+
 ## Improved design by adding possibility for Program Counter to be preset
 
 From the block diagram it can be seen that the Program Counter cannot be loaded with a desired value, thus we do not have the possibility to make jumps in the execution of the running programs.
