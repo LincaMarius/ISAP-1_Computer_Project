@@ -63,6 +63,12 @@ A diagram representing a computing system consisting of functional blocks CPU, R
 
 ![ Figure 4 ](/Pictures/Figure4.png)
 
+If we check the diagram of the SAP-1 computer we notice that these functional blocks are not grouped, we also cannot identify the three buses on the diagram. We are presented with only the data bus labeled "W bus".
+
+So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can easily separate these elements: CPU, RAM and I/O, as well as we can easily identify the three buses. We get the following block diagram.
+
+
+
 ## Improved design by adding possibility for Program Counter to be preset
 
 From the block diagram it can be seen that the Program Counter cannot be loaded with a desired value, thus we do not have the possibility to make jumps in the execution of the running programs.
