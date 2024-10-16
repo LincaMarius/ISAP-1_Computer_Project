@@ -1,14 +1,14 @@
 # ISAP-1 Computer
 
-The improved version of the SAP-1 computer.
+The ISAP-1 computer is the improved version of the SAP-1 computer made by me.
 
-This is the SAP-1 computer functionality optimization process at the block diagram level that I went through.
+This is the first stage of the design of the ISAP-1 computer and consists of the process of optimizing the functionality of the SAP-1 computer at the block diagram level.
 
 By: Lincă Marius Gheorghe.
 
 Pitești, Argeș, România, Europe.
 
-https://github.com/LincaMarius/ISAP-Computer
+https://github.com/LincaMarius
 
 
 ## About the project, brief description
@@ -25,9 +25,11 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 
 ## Design improvement by analyzing and modifying the block diagram of the SAP-1 computer
 
+### Original block diagram
+
 The original Block Diagram of the SAP-1 computer can be found in the book "Digital Computer Electronics" by Albert Paul Malvino and Jerald A. Brown, on page 141 and is labeled Figure 10-1.
 
-In the following figure, I present to you a reproduction of the block diagram of the SAP-1 computer.
+In the following figure, I present a reproduction of the original block diagram of the SAP-1 computer.
 
 ![ Figure 1 ](/Pictures/Figure1.png)
 
@@ -40,7 +42,7 @@ a.	Move the selector S2 to the PROG position,\
 b.	The memory address to be modified is selected from switches S1,\
 c.	Select from the S3 switches the date that you want to be written in the memory at the previously set address,\
 d.	Press button S4 to write the new value to memory,\
-e.	Repeat steps b, c and d until all desired changes have been made,\
+e.	Repeat steps b, c and d until all necessary changes have been made, \
 f.	Move selector S2 to the RUN position, to run the program.
 
 ## Improved design by adding possibility for Program Counter to be preset
