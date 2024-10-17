@@ -69,6 +69,25 @@ So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can e
 
 ![ Figure 5 ](/Pictures/Figure5.png)
 
+### Separation of the Central Processing Unit subsystem
+
+I propose to separate the component blocks of the Central Processing Unit from the other blocks of the computer.
+
+Thus from figure 5 we will remove the following blocks and their associated control signals:
+- Address Select Switches,
+- Program / Run Selector + Deposit,
+- Date Select Switches,
+- Clock and Reset,
+- Address MUX,
+- 16 x 8 RAM,
+- Output Register
+- Binary Display.
+
+
+
+
+
+
 ## Improved design by adding possibility for Program Counter to be preset
 
 From the block diagram it can be seen that the Program Counter cannot be loaded with a desired value, thus we do not have the possibility to make jumps in the execution of the running programs.
@@ -195,6 +214,15 @@ The simplest solution to this problem that I can think of, without changing the 
 This memory becomes program memory, the old one will be data memory. The selection between the two types of memory is done with a control signal on which we write /PM from program memory, as we can see in figure 14.
 
 ![ Figure 14 ](/Pictures/Figure14.png)
+
+
+
+
+
+
+
+
+
 
 ## Improved system design by using a memory bank system
 
