@@ -95,12 +95,18 @@ The resulting block diagram is shown in the following figure
 
 ![ Figure 7 ](/Pictures/Figure7.png)
 
-The CE signal was renamed DM \
-The LM signal was renamed LAR \
+The CE signal was renamed DM – Data Memory Select \
+The LM signal was renamed LAR - Load Address Register \
 The LO signal has been renamed I/O \
-We introduced the R/W signal with the role of Read/Write RAM memory
+I introduced the R/W signal to control RAM Read/Write.
 
 ### Improved design by adding possibility for Program Counter to be preset
-From the block diagram it can be seen that the Program Counter cannot be loaded with a desired value, thus we do not have the possibility to make Unconditional Jumps in the execution of the running programs
+From the block diagram it can be seen that the Program Counter cannot be loaded with a desired value.
 
-The first, simplest improvement is to make the Program Counter loadable with any value present on the W bus if the new LP control signal is active. As can be seen in the following figure represented in green.
+The first, simplest improvement is to make the Program Counter loadable with any value present on the W bus if the new LP control signal is active.
+
+![ Figure 8 ](/Pictures/Figure8.png)
+
+The ability to load numeric values into the Program Counter allows us to extend the computer's instruction set by implementing the Unconditional Jump instruction.
+
+## Improved system design by adding a flags register
