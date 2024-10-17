@@ -83,7 +83,9 @@ Thus from figure 5 we will remove the following blocks and their associated cont
 - Output Register
 - Binary Display.
 
+The resulting block diagram is shown in the following figure
 
+![ Figure 6 ](/Pictures/Figure6.png)
 
 
 
