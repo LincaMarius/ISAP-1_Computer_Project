@@ -116,3 +116,13 @@ These Flags can be tested individually or grouped, for this system I will use a 
 
 The block diagram of the system that also has the flags register is shown in figure 9
 
+![ Figure 9 ](/Pictures/Figure9.png)
+
+I added the following control signals:
+- PM – Program Memory – activates operations with Program Memory. In the case of the ISAP-1 computer we will have a ROM memory.
+- INT – input from the I/O subsystem for activating the interrupt system
+- SCF – Set Carry Flag
+- CCF – Clear Carry Flag
+- Flags Select – allows selection of the Flag of interest when executing a conditional jump instruction
+- F – input to the Control Unit showing the status of the selected Flag
+
