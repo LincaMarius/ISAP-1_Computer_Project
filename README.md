@@ -109,7 +109,7 @@ The first, simplest improvement is to make the Program Counter loadable with any
 
 The ability to load numeric values into the Program Counter allows us to extend the computer's instruction set by implementing the Unconditional Jump instruction.
 
-## Improved system design by adding a Flags register
+### Improved system design by adding a Flags register
 To run more advanced programs that need conditional jumps, we have to use flags that show us particulars of the result of the last arithmetic operation performed. These result characteristics are stored in the flags register.
 
 These Flags can be tested individually or grouped, for this system I will use a selector for Flags, so only one condition is tested at a time.
@@ -126,3 +126,20 @@ I added the following control signals:
 - Flags Select – allows selection of the Flag of interest when executing a conditional jump instruction
 - F – input to the Control Unit showing the status of the selected Flag
 
+## Summary
+The final structure of the ISAP-1 computer is:
+
+![ Figure 10 ](/Pictures/Figure10.png)
+
+We can distinguish the three subsystems of the computer:
+- The ISAP-1 CPU subsystem
+- The Memory Subsystem
+- Subsystem Inputs/Outputs
+
+They are interconnected through the three mains:
+- 4-bit address bus
+- 8-bit data bus
+- 5-bit command bus
+
+Following is the optimization of the SAP-1 computer instruction set for the final block diagram that is present in this repository: \
+https://github.com/LincaMarius/ISAP-1_Computer_Instruction_Set
