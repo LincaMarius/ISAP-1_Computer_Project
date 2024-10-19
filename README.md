@@ -133,7 +133,7 @@ LIL instruction â€“ Load immediate value into lower nibble and LIH instruction â
 
 The block diagram of the system that has the Accumulator register with separate charge signals for each nibble is shown in figure 10
 
-
+![ Figure 10 ](/Pictures/Figure10.png)
 
 
 
