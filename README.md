@@ -126,6 +126,17 @@ I added the following control signals:
 - Flags Select – allows selection of the Flag of interest when executing a conditional jump instruction
 - F – input to the Control Unit showing the status of the selected Flag
 
+### Improved system design by loading the lower Nibble and upper Nibble of the Accumulator register separately
+To run programs that allow immediate values to be loaded into the 8-bit Accumulator Register, since the Load Accumulator Immediate (LAI) instruction allows 4-bit values equivalent to a nibble, I decided to implement two separate instructions.
+
+LIL instruction – Load immediate value into lower nibble and LIH instruction – Load immediate value into upper nibble.
+
+The block diagram of the system that has the Accumulator register with separate charge signals for each nibble is shown in figure 10
+
+
+
+
+
 ## Summary
 The final structure of the ISAP-1 computer is:
 
