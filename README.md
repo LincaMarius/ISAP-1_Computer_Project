@@ -135,12 +135,12 @@ The block diagram of the system that has the Accumulator register with separate 
 
 ![ Figure 10 ](/Pictures/Figure10.png)
 
-
+The control signal LA is replaced by two new control signals LAL – Lower Accumulator Nibble Register Load and LAH – Upper Accumulator Nibble Register Load.
 
 ## Summary
 The final structure of the ISAP-1 computer is:
 
-![ Figure 10 ](/Pictures/Figure10.png)
+![ Figure 11 ](/Pictures/Figure11.png)
 
 We can distinguish the three subsystems of the computer:
 - The ISAP-1 CPU subsystem
