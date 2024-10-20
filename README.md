@@ -123,7 +123,10 @@ I added the following control signals:
 - INT – input from the I/O subsystem for activating the interrupt system
 - SCF – Set Carry Flag
 - CCF – Clear Carry Flag
-- Flags Select – allows selection of the Flag of interest when executing a conditional jump instruction
+- FC – select Carry Flag
+- FZ – select Zero Flag
+- FS – select Sign Flag
+- LF – load Flags
 - F – input to the Control Unit showing the status of the selected Flag
 
 ### Improved system design by loading the lower Nibble and upper Nibble of the Accumulator register separately
