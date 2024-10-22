@@ -122,13 +122,6 @@ The block diagram of the system that also has the flags register is shown in fig
 I added the following control signals:
 - PM – Program Memory – activates operations with Program Memory. In the case of the ISAP-1 computer we will have a ROM memory.
 - INT – input from the I/O subsystem for activating the interrupt system
-- SCF – Set Carry Flag
-- CCF – Clear Carry Flag
-- FC – select Carry Flag
-- FZ – select Zero Flag
-- FS – select Sign Flag
-- LF – load Flags
-- F – input to the Control Unit showing the status of the selected Flag
 
 ### Improved system design by loading the lower Nibble and upper Nibble of the Accumulator register separately
 To run programs that allow immediate values to be loaded into the 8-bit Accumulator Register, since the Load Accumulator Immediate (LAI) instruction allows 4-bit values equivalent to a nibble, I decided to implement two separate instructions.
