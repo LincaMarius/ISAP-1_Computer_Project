@@ -144,7 +144,7 @@ The final structure of the ISAP-1 computer is:
 We can distinguish the three subsystems of the computer:
 - The ISAP-1 CPU subsystem
 - The Memory Subsystem
-- Subsystem Inputs/Outputs
+- Inputs/Outputs Subsystem 
 
 They are interconnected through the three mains:
 - 4-bit address bus
