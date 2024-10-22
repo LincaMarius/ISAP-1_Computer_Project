@@ -33,7 +33,7 @@ In the following figure, I present a reproduction of the original block diagram 
 
 ![ Figure 1 ](/Pictures/Figure1.png)
 
-I studied the original electronic schematic of the SAP-1 computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure.
+I studied the original schematic of the SAP-1 computer and recreated the block diagram to represent the actual functional blocks as closely as possible and I present it in the following figure.
 
 ![ Figure 2 ](/Pictures/Figure2.png)
 
@@ -109,8 +109,9 @@ The first, simplest improvement is to make the Program Counter loadable with any
 
 The ability to load numeric values into the Program Counter allows us to extend the computer's instruction set by implementing the Unconditional Jump instruction.
 
-### Improved system design by adding a Flags register
-To run more advanced programs that need conditional jumps, we have to use flags that show us particulars of the result of the last arithmetic operation performed. These result characteristics are stored in the flags register.
+### Improved system design by adding a Flags
+To run more advanced programs that need conditional jumps, we have to use Flags that show us particulars of the result of the last arithmetic operation performed. 
+These result characteristics can be determined by evaluating the values ​​of the Flags.
 
 These Flags can be tested individually or grouped, for this system I will use a selector for Flags, so only one condition is tested at a time.
 
