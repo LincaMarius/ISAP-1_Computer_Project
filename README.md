@@ -170,10 +170,14 @@ This instruction set will have a prefix. I chose the value 1111 binary, 0xF in h
 
 We have an Instruction Set consisting of 31 instructions: 15 instructions with parameter and 16 instructions without parameter.
 
+To modify the control signals optimally if we have to execute an extended instruction, the Control Block must receive all 8 bits stored in the Instruction Register. This causes the block diagram of the ISAP-1 computer to change as follows:
+
+![ Figure 11 ](/Pictures/Figure11.png)
+
 ## Summary
 The final structure of the ISAP-1 computer is:
 
-![ Figure 11 ](/Pictures/Figure11.png)
+![ Figure 12 ](/Pictures/Figure12.png)
 
 We can distinguish the three subsystems of the computer:
 - The ISAP-1 CPU
