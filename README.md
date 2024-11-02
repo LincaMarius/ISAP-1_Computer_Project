@@ -153,6 +153,23 @@ The control signal LA is replaced by two new control signals:
 - LAL – Lower Accumulator Nibble Register Load
 - LAH – Upper Accumulator Nibble Register Load.
 
+## Extending the Instruction Set
+The original format of the SAP-1 computer instructions is:
+
+| 4 bits instruction code   | 4 bits operand (memory address)          |
+|---------------------------|------------------------------------------|
+
+Asta implică faptul că pot fi implementate maxim 2 ^ 4 = 16 instrucțiuni.
+
+Since there are instructions that take parameters and instructions that do not require parameters, I will group the instructions without parameters into a separate set of instructions.
+
+This instruction set will have a prefix. I chose the value 1111 binary, 0xF in hexadecimal.
+
+| extended instruction prefix 4 bits (0xF) | extended instruction 4 bits (0xF) |
+|------------------------------------------|-----------------------------------|
+
+We have an Instruction Set consisting of 31 instructions: 15 instructions with parameter and 16 instructions without parameter.
+
 ## Summary
 The final structure of the ISAP-1 computer is:
 
