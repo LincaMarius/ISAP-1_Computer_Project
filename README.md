@@ -61,7 +61,7 @@ The block diagram using signals only active high control signals, can be seen in
 
 ![ Figure 3 ](/Pictures/Figure3.png)
 
-### Identifying and separating computer components
+## Identifying and separating computer components
 
 As we learned in school, a computer can be represented by 3 distinct functional blocks:
 - CPU,
@@ -85,7 +85,7 @@ So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can e
 
 ![ Figure 5 ](/Pictures/Figure5.png)
 
-### Separation of the Central Processing Unit subsystem
+## Separation of the Central Processing Unit
 
 I propose to separate the component blocks of the Central Processing Unit from the other blocks of the computer.
 
@@ -111,21 +111,21 @@ The resulting block diagram is shown in the following figure
 
 ![ Figure 7 ](/Pictures/Figure7.png)
 
-The CE signal was renamed DM – Data Memory Select \
-The LM signal was renamed LAR - Load Address Register \
+The CE signal was renamed DM = Data Memory Select \
+The LM signal was renamed LAR = Load Address Register \
 The LO signal has been renamed I/O \
-I introduced the R/W signal to control RAM Read/Write.
+I introduced the R/W signal to control the Read/Write operation.
 
-### Improved design by adding possibility for Program Counter to be preset
+## Improved design by adding possibility for Program Counter to be preset
 From the block diagram it can be seen that the Program Counter cannot be loaded with a desired value.
 
 The first, simplest improvement is to make the Program Counter loadable with any value present on the W bus if the new LP control signal is active.
 
 ![ Figure 8 ](/Pictures/Figure8.png)
 
-The ability to load numeric values into the Program Counter allows us to extend the computer's instruction set by implementing the Unconditional Jump instruction.
+The ability to load numeric values ​​into the Program Counter allows us to extend the computer's instruction set by implementing conditional jump and unconditional jump instructions.
 
-### Improved system design by adding a Flags
+## Improved system design by adding Flags
 To run more advanced programs that need conditional jumps, we have to use Flags that show us particulars of the result of the last arithmetic operation performed. 
 These result characteristics can be determined by evaluating the values ​​of the Flags.
 
@@ -139,10 +139,11 @@ I added the following control signals:
 - PM – Program Memory – activates operations with Program Memory. In the case of the ISAP-1 computer we will have a ROM memory.
 - INT – input from the I/O subsystem for activating the interrupt system
 
-### Improved system design by loading the lower Nibble and upper Nibble of the Accumulator register separately
+## Improved system design by loading the lower Nibble and upper Nibble of the Accumulator register separately
 To run programs that allow immediate values to be loaded into the 8-bit Accumulator Register, since the Load Accumulator Immediate (LAI) instruction allows 4-bit values equivalent to a nibble, I decided to implement two separate instructions.
 
-LIL instruction – Load immediate value into lower nibble and LIH instruction – Load immediate value into upper nibble.
+LIL instruction – Load immediate value into lower nibble and \ 
+LIH instruction – Load immediate value into upper nibble.
 
 The block diagram of the system that has the Accumulator register with separate charge signals for each nibble is shown in figure 10
 
@@ -158,14 +159,14 @@ The final structure of the ISAP-1 computer is:
 ![ Figure 11 ](/Pictures/Figure11.png)
 
 We can distinguish the three subsystems of the computer:
-- The ISAP-1 CPU subsystem
+- The ISAP-1 CPU
 - The Memory Subsystem
 - Inputs/Outputs Subsystem 
 
-They are interconnected through the three mains:
+They are interconnected through the three buses:
 - 4-bit address bus
 - 8-bit data bus
-- 5-bit command bus
+- 5-bit commands bus
 
 Following is the optimization of the SAP-1 computer instruction set for the final block diagram that is present in this repository: \
 https://github.com/LincaMarius/ISAP-1_Computer_Instruction_Set
