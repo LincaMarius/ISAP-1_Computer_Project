@@ -174,10 +174,23 @@ To modify the control signals optimally if we have to execute an extended instru
 
 ![ Figure 11 ](/Pictures/Figure11.png)
 
+## Improved system design by adding a constant generator
+Some instructions implicitly need a constant numeric value in their execution.
+
+One such instruction is the INC instruction which increments a variable by one. Another statement is the SET statement which assigns the value one to a variable. Both instructions need the constant one.
+
+To implement such instructions in the ISAP-1 computer, I introduced a Constant Generator in the block diagram.
+
+It generates the value zero on the bus when the EC0 signal is activated, generates the value one on the bus when the signal EC1 is activated, and generates the value -1 on the bus if both control signals are active.
+
+The block diagram of the system that has the Constant Generator Block implemented is shown in figure 12
+
+![ Figure 12 ](/Pictures/Figure12.png)
+
 ## Summary
 The final structure of the ISAP-1 computer is:
 
-![ Figure 12 ](/Pictures/Figure12.png)
+![ Figure 13 ](/Pictures/Figure13.png)
 
 We can distinguish the three subsystems of the computer:
 - The ISAP-1 CPU
