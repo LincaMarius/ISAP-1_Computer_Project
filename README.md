@@ -174,7 +174,7 @@ To modify the control signals optimally if we have to execute an extended instru
 
 ![ Figure 11 ](/Pictures/Figure11.png)
 
-## Improved system design by adding a constant generator
+## Improved system design by adding a Constants Generator
 Some instructions implicitly need a constant numeric value in their execution.
 
 One such instruction is the INC instruction which increments a variable by one. Another statement is the SET statement which assigns the value one to a variable. Both instructions need the constant one.
