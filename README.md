@@ -187,6 +187,8 @@ The block diagram of the system that has the Constant Generator Block implemente
 
 ![ Figure 12 ](/Pictures/Figure12.png)
 
+By adding the Constant Generator it is possible to implement the instructions SET (Set Accumulator), CLR (Clear Accumulator), INC (Increment Accumulator), DEC (Decrement Accumulator).
+
 ## Summary
 The final structure of the ISAP-1 computer is:
 
