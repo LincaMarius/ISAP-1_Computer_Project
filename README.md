@@ -189,6 +189,17 @@ The block diagram of the system that has the Constant Generator Block implemente
 
 By adding the Constant Generator it is possible to implement the instructions SET (Set Accumulator), CLR (Clear Accumulator), INC (Increment Accumulator), DEC (Decrement Accumulator).
 
+## Improved system design by adding Stack
+I decided to add stack operations to this calculator. Thus, I can implement calling subroutines as a first benefit. The stack also provides the ability to store data temporarily.
+
+We will use a 4-bit register for the stack since the address is 4-bit. This register must be able to be incremented as well as decremented.
+
+For this purpose we can use a counter. It must be able to be incremented but also decremented.
+
+New instructions such as: PUSH, POP, CALL, RET, JMP FAR can now be implemented.
+
+![ Figure 13 ](/Pictures/Figure13.png)
+
 ## Summary
 The final structure of the ISAP-1 computer is:
 
