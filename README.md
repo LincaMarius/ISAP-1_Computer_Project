@@ -204,7 +204,10 @@ Since the available RAM is only 16 bytes we decided Stiva to use a separate RAM,
 
 Since the Stack doesn't use the computer's RAM, but has its own RAM, the Stack's growth direction doesn't matter.
 
+## Improvement of SAP-1 computer architecture
+The architecture of the ISAP-1 computer up to this point is as follows:
 
+![ Figure 14 ](/Pictures/Figure14.png)
 
 ## Summary
 The final structure of the ISAP-1 computer is:
