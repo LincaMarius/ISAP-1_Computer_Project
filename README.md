@@ -209,11 +209,6 @@ The architecture of the ISAP-1 computer up to this point is as follows:
 
 ![ Figure 14 ](/Pictures/Figure14.png)
 
-## Summary
-The final structure of the ISAP-1 computer is:
-
-![ Figure 13 ](/Pictures/Figure13.png)
-
 We can distinguish the three subsystems of the computer:
 - The ISAP-1 CPU
 - The Memory Subsystem
@@ -222,7 +217,25 @@ We can distinguish the three subsystems of the computer:
 They are interconnected through the three buses:
 - 4-bit address bus
 - 8-bit data bus
-- 5-bit commands bus
+- 6-bit commands bus
+
+The available address space for the ISAP-1 computer in this structure is:
+- 16 bytes of Program Memory
+- 16 bytes of Data Memory
+- 16 bytes Stack
+- 16 Input-Output Devices
+
+The obvious limitation is given by the size of the programs that can be run of only 16 bytes.
+
+For this purpose, I propose the implementation of a Program Memory Banking system. This is done by using an external register that will be addressed as an Input-Output device. This register will be 8 bits.
+
+So, the addressable Program Memory capacity will increase from 16 bytes to:
+2^8 * 16 bytes = 256 * 16 bytes = 4096 bytes
+
+The described Program Memory Banking model is shown in figure 15.
+
+![ Figure 15 ](/Pictures/Figure15.png)
+
 
 Following is the optimization of the SAP-1 computer instruction set for the final block diagram that is present in this repository: \
 https://github.com/LincaMarius/ISAP-1_Computer_Instruction_Set
