@@ -200,6 +200,12 @@ New instructions such as: PUSH, POP, CALL, RET, JMP FAR can now be implemented.
 
 ![ Figure 13 ](/Pictures/Figure13.png)
 
+Since the available RAM is only 16 bytes we decided Stiva to use a separate RAM, so it doesn't reduce the space available for program variables.
+
+Since the Stack doesn't use the computer's RAM, but has its own RAM, the Stack's growth direction doesn't matter.
+
+
+
 ## Summary
 The final structure of the ISAP-1 computer is:
 
