@@ -176,6 +176,25 @@ To modify the control signals optimally if we have to execute an extended instru
 
 ![ Figure 11 ](/Pictures/Figure11.png)
 
+## Improved system design by adding a Constants Generator
+Some instructions implicitly need a constant numeric value in their execution.
+
+One such instruction is the INC instruction which increments a variable by one. Another statement is the SET statement which assigns the value one to a variable. Both instructions need the constant one.
+
+To implement such instructions in the ISAP-1 computer, I introduced a Constant Generator in the block diagram.
+
+It generates the value zero if no control signal is active.
+
+Activating the EC1 signal has the effect of generating the value one.
+
+On activation of the SC2 signal and generates the value -1.
+
+Activation of the EC control signal puts the generated value on the Bus.
+
+The block diagram of the system that has the Constant Generator block implemented is shown in figure 12.
+
+![ Figure 12 ](/Pictures/Figure12.png)
+
 ## Improved system design by adding Stack
 I decided to add stack operations to this calculator. Thus, I can implement calling subroutines as a first benefit. The stack also provides the ability to store data temporarily.
 
