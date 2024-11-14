@@ -44,9 +44,9 @@ I studied the original schematic of the SAP-1 computer and recreated the block d
 ![ Figure 2 ](/Pictures/Figure2.png)
 
 The programming mode of the SAP-1 computer described by the authors is as follows:\
-a.	Move the selector S2 to the PROG position,\
-b.	The memory address to be modified is selected from switches S1,\
-c.	Select from the S3 switches the date that you want to be written in the memory at the previously set address,\
+a.	Move selector S2 to the PROG position, to enter Programming mode, \
+b.	The memory address to be modified is selected with switches S1, \
+c.	Select with the S3 switches the Data that you want to be written to the memory at the previously set address, \
 d.	Press button S4 to write the new value to memory,\
 e.	Repeat steps b, c and d until all necessary changes have been made, \
 f.	Move selector S2 to the RUN position, to run the program.
@@ -119,7 +119,7 @@ I introduced the R/W signal to control the Read/Write operation.
 ## Improved design by adding possibility for Program Counter to be preset
 From the block diagram it can be seen that the Program Counter cannot be loaded with a desired value.
 
-The first, simplest improvement is to make the Program Counter loadable with any value present on the W bus if the new LP control signal is active.
+The first, simplest improvement is to make the Program Counter loadable with any value present on the W Bus if the new LP control signal is active.
 
 ![ Figure 8 ](/Pictures/Figure8.png)
 
@@ -152,42 +152,6 @@ The block diagram of the system that has the Accumulator register with separate 
 The control signal LA is replaced by two new control signals:
 - LAL – Lower Accumulator Nibble Register Load
 - LAH – Upper Accumulator Nibble Register Load.
-
-## Extending the Instruction Set
-The original format of the SAP-1 computer instructions is:
-
-| 4 bits instruction code   | 4 bits operand (memory address)          |
-|---------------------------|------------------------------------------|
-
-Asta implică faptul că pot fi implementate maxim 2 ^ 4 = 16 instrucțiuni.
-
-Since there are instructions that take parameters and instructions that do not require parameters, I will group the instructions without parameters into a separate set of instructions.
-
-This instruction set will have a prefix. I chose the value 1111 binary, 0xF in hexadecimal.
-
-| extended instruction prefix 4 bits (0xF) | extended instruction 4 bits (0xF) |
-|------------------------------------------|-----------------------------------|
-
-We have an Instruction Set consisting of 31 instructions: 15 instructions with parameter and 16 instructions without parameter.
-
-To modify the control signals optimally if we have to execute an extended instruction, the Control Block must receive all 8 bits stored in the Instruction Register. This causes the block diagram of the ISAP-1 computer to change as follows:
-
-![ Figure 11 ](/Pictures/Figure11.png)
-
-## Improved system design by adding a Constants Generator
-Some instructions implicitly need a constant numeric value in their execution.
-
-One such instruction is the INC instruction which increments a variable by one. Another statement is the SET statement which assigns the value one to a variable. Both instructions need the constant one.
-
-To implement such instructions in the ISAP-1 computer, I introduced a Constant Generator in the block diagram.
-
-It generates the value zero on the bus when the EC0 signal is activated, generates the value one on the bus when the signal EC1 is activated, and generates the value -1 on the bus if both control signals are active.
-
-The block diagram of the system that has the Constant Generator Block implemented is shown in figure 12
-
-![ Figure 12 ](/Pictures/Figure12.png)
-
-By adding the Constant Generator it is possible to implement the instructions SET (Set Accumulator), CLR (Clear Accumulator), INC (Increment Accumulator), DEC (Decrement Accumulator).
 
 ## Improved system design by adding Stack
 I decided to add stack operations to this calculator. Thus, I can implement calling subroutines as a first benefit. The stack also provides the ability to store data temporarily.
