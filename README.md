@@ -253,7 +253,7 @@ For this purpose, I propose the implementation of a Program Memory Banking syste
 So, the addressable Program Memory capacity will increase from 16 bytes to:
 2^8 * 16 bytes = 256 * 16 bytes = 4096 bytes
 
-The described Program Memory Banking model is shown in figure 15.
+The described Program Memory Banking model is shown in figure 16.
 
 ![ Figure 16 ](/Pictures/Figure16.png)
 
@@ -262,9 +262,9 @@ For any digital system we need a way to interact with it. This is the function o
 
 The simplest input system that can be realized is a binary keyboard that allows the transmission of a binary code set by means of 8 switches on the data bus of the ISAP-1 computer.
 
-The connection of this Keyboard to the system buses is shown in figure 16.
+The connection of this Keyboard to the system buses is shown in figure 17.
 
-![ Figure 16 ](/Pictures/Figure16.png)
+![ Figure 17 ](/Pictures/Figure17.png)
 
 ## Binary Display
 The simplest output device that can be connected to this computer is a Binary Display. This device is also used in the original construction of the SAP-1 computer, where it is integrated directly into the structure of this computer.
