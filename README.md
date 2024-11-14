@@ -236,6 +236,18 @@ The described Program Memory Banking model is shown in figure 15.
 
 ![ Figure 15 ](/Pictures/Figure15.png)
 
+## Binary Keyboard
+For any digital system we need a way to interact with it. This is the function of the Input-Output subsystem.
+
+The simplest input system that can be realized is a binary keyboard that allows the transmission of a binary code set by means of 8 switches on the data bus of the ISAP-1 computer.
+
+The connection of this Keyboard to the system buses is shown in figure 16.
+
+![ Figure 16 ](/Pictures/Figure16.png)
+
+
+
+
 
 Following is the optimization of the SAP-1 computer instruction set for the final block diagram that is present in this repository: \
 https://github.com/LincaMarius/ISAP-1_Computer_Instruction_Set
