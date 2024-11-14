@@ -255,7 +255,7 @@ So, the addressable Program Memory capacity will increase from 16 bytes to:
 
 The described Program Memory Banking model is shown in figure 15.
 
-![ Figure 15 ](/Pictures/Figure15.png)
+![ Figure 16 ](/Pictures/Figure16.png)
 
 ## Binary Keyboard
 For any digital system we need a way to interact with it. This is the function of the Input-Output subsystem.
