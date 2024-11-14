@@ -228,7 +228,7 @@ The block diagram for the ISAP-1 computer using an ALU unit is shown in figure 1
 ## Improvement of SAP-1 computer architecture
 The architecture of the ISAP-1 computer up to this point is as follows:
 
-![ Figure 14 ](/Pictures/Figure14.png)
+![ Figure 15 ](/Pictures/Figure15.png)
 
 We can distinguish the three subsystems of the computer:
 - The ISAP-1 CPU
