@@ -29,10 +29,12 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 The initial version I want to be a redesign of the SAP-1 computer. For this purpose, we must go through the steps followed by the authors of the original project.
 
 ### Step 1
-The first step in making the SAP-1 calculator is making the block diagram:
+The first step in designing the SAP-1 computer is making the block diagram:
 https://github.com/LincaMarius/ISAP-1_Block_Diagram?tab=readme-ov-file#version-1
 
-
+ ### Step 2
+ The second step is to study the Instruction Set, as it determines the capabilities and limitations of a processor.
+ 
 
 
 
