@@ -28,5 +28,8 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 ## ISAP-1 version 1
 The initial version I want to be a redesign of the SAP-1 computer. For this purpose, we must go through the steps followed by the authors of the original project.
 
+### Step 1
+The first step in making the SAP-1 calculator is making the block diagram.
 
-## ISAP-1 version 1.1
+
+
