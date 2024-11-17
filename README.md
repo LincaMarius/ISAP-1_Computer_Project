@@ -31,5 +31,3 @@ The initial version I want to be a redesign of the SAP-1 computer. For this purp
 https://github.com/LincaMarius/ISAP-1_Computer_Project/tree/main/ISAP-1_Version_1
 
 
-
-
