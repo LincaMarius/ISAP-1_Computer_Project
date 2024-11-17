@@ -30,5 +30,3 @@ The initial version I want to be a redesign of the SAP-1 computer. For this purp
 
 https://github.com/LincaMarius/ISAP-1_Computer_Project/tree/main/ISAP-1_Version_1
 
-The original Block Diagram of the SAP-1 computer can be found in the book "Digital Computer Electronics" by Albert Paul Malvino and Jerald A. Brown, on page 141 and is labeled Figure 10-1.
-
