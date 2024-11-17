@@ -28,16 +28,8 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 ## ISAP-1 version 1
 The initial version I want to be a redesign of the SAP-1 computer. For this purpose, we must go through the steps followed by the authors of the original project.
 
-### Step 1
-The first step in designing the ISAP-1 computer is making the block diagram: \
-https://github.com/LincaMarius/ISAP-1_Block_Diagram
+https://github.com/LincaMarius/ISAP-1_Computer_Project/tree/main/ISAP-1_Version_1
 
- ### Step 2
- The second step is to study the Instruction Set, as it determines the capabilities and limitations of a processor. \
-https://github.com/LincaMarius/ISAP-1_Instruction_Set?tab=readme-ov-file#version-1
-
-
- 
 
 
 
