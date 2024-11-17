@@ -18,5 +18,7 @@ Like any other project, the design of the SAP-1 Calculator has to be done throug
 ## Step 1 – Block Diagram Design
 The first step in designing the ISAP-1 computer is making the block diagram:
 
+https://github.com/LincaMarius/ISAP-1_Computer_Project/tree/main/ISAP-1_Version_1/ISAP-1_Block_Diagram
+
 
 
