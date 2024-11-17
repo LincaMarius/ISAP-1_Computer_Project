@@ -1,6 +1,4 @@
 # ISAP-1 Computer
-Improved SAP-1 Computer
-
 The ISAP-1 computer is the improved version of the SAP-1 computer made by me.
 
 ISAP Computer stands for Improved Simple as Possible Computer.
@@ -28,5 +26,9 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 ## ISAP-1 version 1
 The initial version I want to be a redesign of the SAP-1 computer. For this purpose, we must go through the steps followed by the authors of the original project.
 
-https://github.com/LincaMarius/ISAP-1_Computer_Project/tree/main/ISAP-1_Version_1
+### Step 1 – Block Diagram optimization
+The first stage of any project is the realization of the block diagram through which the overall picture of the designed system can be viewed, where the component blocks and the links between them can be seen.
 
+This is my step-by-step process of optimizing the functionality of the ISAP-1 computer at the block diagram level:
+
+https://github.com/LincaMarius/ISAP-1_Block_Diagram
