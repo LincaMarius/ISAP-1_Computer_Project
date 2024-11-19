@@ -26,9 +26,11 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 ## ISAP-1 version 1
 The initial version I want to be a redesign of the SAP-1 computer. For this purpose, we must go through the steps followed by the authors of the original project.
 
+I want version 1 to be an implementation of the SAP-1 Computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
+
 ### Step 1 – Block Diagram optimization
 The first stage of any project is the realization of the block diagram through which the overall picture of the designed system can be viewed, where the component blocks and the links between them can be seen.
 
-This is my step-by-step process of optimizing the functionality of the ISAP-1 computer at the block diagram level:
+I will do an analysis of the original Block Diagram of the SAP-1 computer.
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
