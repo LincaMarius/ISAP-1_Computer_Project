@@ -54,4 +54,16 @@ In this way, design errors can be detected that can lead to wasted time later wi
 This is the process of creating the ISAP-1 computer at the simulation level using the Logisim program, presented step by step: \
 https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
 
+### Step 4 – Control Block Design using Combinational Logic
+This step is necessary to complete the previous step.
+
+We treated the design of the Control Block separately because it is more complicated and involves several distinct stages.
+
+Here we designed the Control Block from scratch starting from the Boolean formulas determined in step 2 when we studied the instruction set of the SAP-1 computer.
+
+The goal was to design the Control Block using only logic gates (Combinational Logic) exactly as the authors of the SAP-1 computer did.
+
+This was achieved because in the end we obtained the same scheme as the one used in the creation of the SAP-1 Computer: \
+https://github.com/LincaMarius/ISAP-1_Control_Unit
+
 
