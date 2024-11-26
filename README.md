@@ -66,4 +66,15 @@ The goal was to design the Control Block using only logic gates (Combinational L
 This was achieved because in the end we obtained the same scheme as the one used in the creation of the SAP-1 Computer: \
 https://github.com/LincaMarius/ISAP-1_Control_Unit
 
+### Step 5 – Test the operation of the ISAP-1 Computer
+In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation level by running programs designed for this purpose.
+
+These programs are written in assembly code specific to the SAP-1 computer.
+
+Like any other computer, the ISAP-1 only recognizes and interprets instructions as binary code.
+
+Since there is no assembler program that recognizes the syntax of the SAP-1 and ISAP-1 computer, the conversion from assembly language to binary code will be done manually.
+
+All programs that can run on SAP-1 and ISAP-1 computers are here: \
+
 
