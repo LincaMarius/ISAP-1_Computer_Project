@@ -66,7 +66,7 @@ The goal was to design the Control Block using only logic gates (Combinational L
 This was achieved because in the end we obtained the same scheme as the one used in the creation of the SAP-1 Computer: \
 https://github.com/LincaMarius/ISAP-1_Control_Unit
 
-### Step 5 – Test the operation of the ISAP-1 Computer
+### Step 5 – ISAP-1 Computer Test Programs
 In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation level by running programs designed for this purpose.
 
 These programs are written in assembly code specific to the SAP-1 computer.
@@ -78,4 +78,30 @@ Since there is no assembler program that recognizes the syntax of the SAP-1 and 
 All programs that can run on SAP-1 and ISAP-1 computers are here: \
 https://github.com/LincaMarius/ISAP-1_Programs
 
+### Step 6 – Electronic Schematic Design
+In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
+
+In this version we have restored the original schematic of the SAP-1 computer to preserve the original functionality.
+
+We used the same electronic components and kept the chip numbering from the original schematic.
+
+I modified the schematic only by adding decoupling capacitors with a value of 100nF for each chip used.
+
+The original computer has a built-in power supply with a mains transformer and a linear regulator. Since it should work with mains voltage, we have removed the internal power supply. This eliminates the risk of mains voltage and reduces the size and weight of the computer.
+
+The ISAP-1 computer can be powered using an external 5 Volt DC power source with a Barrel Jack or a USB type A connector.
+
+The operating mode of the SAP-1 computer is to set the Programming mode and edit RAM memory contents, then switch to Run mode when the program is executed and the result is displayed on the digital display.
+So on the display I will only have the result, and if the program is wrong I cannot verify its contents, and if one of the modules is not working correctly I cannot verify this except using test equipment.
+
+I modified the SAP-1 computer's schematic so that when in programming mode, the contents of the RAM memory at the selected address are continuously displayed.
+I also modified the ISAP-1 computer diagram so that if I am in Manual mode, the information present on the bus is continuously displayed at each rising edge of the clock signal, so I have a Debug mode at the level of signals present on the Bus.
+In Run mode the ISAP-1 computer only displays the final result, so I kept the functionality of the original SAP-1 computer.
+
+For all these modifications I only used spare components that were not used in the original scheme, so I did not add any new components compared to the original scheme of the SAP-1 computer.
+
+For this purpose I used a three-input nand gate and two inverters that were unused in the original circuit.
+
+The Electronic Diagram of the ISAP-1 Computer edited using the KiCAD program can be found here: \
+https://github.com/LincaMarius/ISAP-1_Schematic
 
