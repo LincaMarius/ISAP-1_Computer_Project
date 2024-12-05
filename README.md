@@ -97,3 +97,16 @@ So on the display I will only have the result, and if the program is wrong I can
 The Electronic Diagram of the ISAP-1 Computer edited using the KiCAD program can be found here: \
 https://github.com/LincaMarius/ISAP-1_Schematic
 
+## ISAP-1 revision B version 1
+Revision B, I want to be an implementation of the SAP-1 computer that has the Control Unit made using microprogramming and storing microinstructions in ROM memory.
+
+I want version 1 to be an implementation of the SAP-1 Computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
+
+The Block Diagram remains unchanged for Revision B of the SAP-1 and ISAP-1 computers compared to Revision A.
+
+The Instruction Set remains unchanged for Revision B of the SAP-1 and ISAP-1 computers compared to Revision A.
+
+### Step 3 – Computer Simulation in Logisim
+In this step, the ISAP-1 Computer revision B is simulated in the Logisim program, testing functionality from a logical point of view before creating the electrical diagram or physical circuit.
+
+
