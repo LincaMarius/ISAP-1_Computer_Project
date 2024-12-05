@@ -23,8 +23,10 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
  https://www.youtube.com/watch?v=KkTMICyp6xA. \ 
  She built the SAP-1 computer using breadboards for a school project. It's a pity that the video presented is not of better quality.
 
-## ISAP-1 version 1
+## ISAP-1 revision A version 1
 The initial version I want to be a redesign of the SAP-1 computer. For this purpose, we must go through the steps followed by the authors of the original project.
+
+Revision A, I want to be an implementation of the SAP-1 computer that has the Control Unit made with logic gates.
 
 I want version 1 to be an implementation of the SAP-1 Computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
 
@@ -85,22 +87,12 @@ In this version we have restored the original schematic of the SAP-1 computer to
 
 We used the same electronic components and kept the chip numbering from the original schematic.
 
-I modified the schematic only by adding decoupling capacitors with a value of 100nF for each chip used.
-
-The original computer has a built-in power supply with a mains transformer and a linear regulator. Since it should work with mains voltage, we have removed the internal power supply. This eliminates the risk of mains voltage and reduces the size and weight of the computer.
+The original computer has a built-in power supply with a mains transformer and a linear regulator. 
 
 The ISAP-1 computer can be powered using an external 5 Volt DC power source with a Barrel Jack or a USB type A connector.
 
 The operating mode of the SAP-1 computer is to set the Programming mode and edit RAM memory contents, then switch to Run mode when the program is executed and the result is displayed on the digital display.
 So on the display I will only have the result, and if the program is wrong I cannot verify its contents, and if one of the modules is not working correctly I cannot verify this except using test equipment.
-
-I modified the SAP-1 computer's schematic so that when in programming mode, the contents of the RAM memory at the selected address are continuously displayed.
-I also modified the ISAP-1 computer diagram so that if I am in Manual mode, the information present on the bus is continuously displayed at each rising edge of the clock signal, so I have a Debug mode at the level of signals present on the Bus.
-In Run mode the ISAP-1 computer only displays the final result, so I kept the functionality of the original SAP-1 computer.
-
-For all these modifications I only used spare components that were not used in the original scheme, so I did not add any new components compared to the original scheme of the SAP-1 computer.
-
-For this purpose I used a three-input nand gate and two inverters that were unused in the original circuit.
 
 The Electronic Diagram of the ISAP-1 Computer edited using the KiCAD program can be found here: \
 https://github.com/LincaMarius/ISAP-1_Schematic
