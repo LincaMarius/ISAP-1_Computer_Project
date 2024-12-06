@@ -122,4 +122,9 @@ The goal was to design the Control Block used in the implementation of the Contr
 This was achieved because in the end we obtained a scheme that uses only 10 chips compared to 18 chips in the previous revision A implementation \
 https://github.com/LincaMarius/ISAP-1_Control_Unit#revision-b-version-1
 
+### Step 5 – ISAP-1 Computer Test Programs
+In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation level by running programs designed for this purpose.
+
+Revision B version 1 of the ISAP-1 computer successfully ran all the programs here: \
+https://github.com/LincaMarius/ISAP-1_Programs
 
