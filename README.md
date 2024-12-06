@@ -128,3 +128,9 @@ In this step, the functionality of the ISAP-1 computer as a whole is tested at t
 Revision B version 1 of the ISAP-1 computer successfully ran all the programs here: \
 https://github.com/LincaMarius/ISAP-1_Programs
 
+### Step 6 – Electronic Schematic Design
+In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
+
+The electronic diagram of the ISAP-1 computer revision B version 1 edited using the KiCAD program can be found here: \
+https://github.com/LincaMarius/ISAP-1_Schematic#isap-1-revision-b-version-1
+
