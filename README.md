@@ -109,4 +109,7 @@ The Instruction Set remains unchanged for Revision B of the SAP-1 and ISAP-1 com
 ### Step 3 – Computer Simulation in Logisim
 In this step, the ISAP-1 Computer revision B is simulated in the Logisim program, testing functionality from a logical point of view before creating the electrical diagram or physical circuit.
 
+The design and simulation of the ISAP-1 revision B computer using the Logisim program is presented here: \
+https://github.com/LincaMarius/ISAP-1_Logisim_Simulation#isap-1-revision-b-version-1
+
 
