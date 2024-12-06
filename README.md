@@ -112,4 +112,14 @@ In this step, the ISAP-1 Computer revision B is simulated in the Logisim program
 The design and simulation of the ISAP-1 revision B computer using the Logisim program is presented here: \
 https://github.com/LincaMarius/ISAP-1_Logisim_Simulation#isap-1-revision-b-version-1
 
+### Step 4 – Control Block Design using Programmed Logic
+This step is necessary to complete the previous step.
+
+Here I modified the Control Block diagram according to the instructions in the book starting with page 161 to page 163 in subchapter 10-8.
+
+The goal was to design the Control Block used in the implementation of the Control Matrix using ROM memories instead of logic gates.
+
+This was achieved because in the end we obtained a scheme that uses only 10 chips compared to 18 chips in the previous revision A implementation \
+https://github.com/LincaMarius/ISAP-1_Control_Unit#revision-b-version-1
+
 
