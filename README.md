@@ -98,6 +98,44 @@ So, on the display I will only have the result, and if the program is wrong I ca
 The Electronic Diagram of the ISAP-1 Computer edited using the KiCAD program can be found here: \
 https://github.com/LincaMarius/ISAP-1_Schematic
 
+## ISAP-1 Model A Version 1.1
+In the book on page 163 the authors present a method of improving the SAP-1 Computer by implementing the Variable Machine Cycle.
+
+The schematic is shown in Figure 10-7 and consists of a 12-input NAND gate that generates the #NOP signal when the Control Block output has the NOP instruction encoded in Hexadecimal as 3E3h and a two-input AND gate that resets the Ring Counter when the #NOP or #CLR signal is low.
+
+We can note that the SAP-1 Computer schematic is not modified to implement this functionality, only two logic gates are added.
+
+The implementation of the Variable Machine Cycle is done inside the Control Block so the Block Diagram of the ISAP-1 Computer remains unchanged.
+
+https://github.com/LincaMarius/ISAP-1_Block_Diagram
+
+### Step 2 – Instruction Set Analysis
+The instruction set does not change, but we need to update the timing diagrams and Boolean equations to incorporate the Variable Machine Cycle.
+
+https://github.com/LincaMarius/ISAP-1_Instruction_Set
+
+### Step 3 – Computer Simulation in Logisim
+Since we are modifying the structure of the Control Block, we also need to modify the simulation of the ISAP-1 computer in the Logisim program.
+
+https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
+
+### Step 4 – Control Block Design using Combinational Logic
+This step is necessary to complete the previous step.
+
+https://github.com/LincaMarius/ISAP-1_Control_Unit
+
+### Step 5 – ISAP-1 Computer Test Programs
+In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation level by running programs designed for this purpose.
+
+All programs that can run on SAP-1 and ISAP-1 computers are here: \
+https://github.com/LincaMarius/ISAP-1_Programs
+
+### Step 6 – Electronic Schematic Design
+In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
+
+The Schematic of the ISAP-1 Model A computer Version 1.1 edited using the KiCAD program can be found here: \
+https://github.com/LincaMarius/ISAP-1_Schematic
+
 ## ISAP-1 Model B Version 1
 Model B, I want to be an implementation of the SAP-1 computer that has the Control Unit made using microprogramming and storing microinstructions in ROM memory.
 
@@ -140,4 +178,44 @@ In this step, the electronic components that will be used are chosen and the ele
 
 The electronic schematic of the ISAP-1 Computer Model B Version 1 edited using the KiCAD program can be found here: \
 https://github.com/LincaMarius/ISAP-1_Schematic#isap-1-revision-b-version-1
+
+## ISAP-1 Model B Version 1.1
+In the book on page 163 the authors present a method of improving the SAP-1 Computer by implementing the Variable Machine Cycle.
+
+The schematic is shown in Figure 10-7 and consists of a 12-input NAND gate that generates the #NOP signal when the Control Block output has the NOP instruction encoded in Hexadecimal as 3E3h and a two-input AND gate that resets the Ring Counter when the #NOP or #CLR signal is low.
+
+We can note that the SAP-1 Computer schematic is not modified to implement this functionality, only two logic gates are added.
+
+### Step 1 – Block Diagram optimization
+The implementation of the Variable Machine Cycle is done inside the Control Block so the Block Diagram of the ISAP-1 Computer remains unchanged.
+
+https://github.com/LincaMarius/ISAP-1_Block_Diagram
+
+### Step 2 – Instruction Set Analysis
+The instruction set does not change, but we need to update the timing diagrams and Boolean equations to incorporate the Variable Machine Cycle.
+
+https://github.com/LincaMarius/ISAP-1_Instruction_Set
+
+### Step 3 – Computer Simulation in Logisim
+Since we are modifying the structure of the Control Block, we also need to modify the simulation of the ISAP-1 computer in the Logisim program.
+
+https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
+
+### Step 4 – Control Block Design using Combinational Logic
+This step is necessary to complete the previous step.
+
+https://github.com/LincaMarius/ISAP-1_Control_Unit
+
+### Step 5 – ISAP-1 Computer Test Programs
+In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation level by running programs designed for this purpose.
+
+All programs that can run on SAP-1 and ISAP-1 computers are here: \
+https://github.com/LincaMarius/ISAP-1_Programs
+
+### Step 6 – Electronic Schematic Design
+In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
+
+The Schematic of the ISAP-1 Model B computer Version 1.1 edited using the KiCAD program can be found here: \
+https://github.com/LincaMarius/ISAP-1_Schematic
+
 
