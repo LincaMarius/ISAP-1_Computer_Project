@@ -5,7 +5,7 @@ ISAP Computer stands for Improved Simple as Possible Computer.
 
 By: Lincă Marius Gheorghe.
 
-Pitești, Argeș, România, Europe.
+Pitești, Argeș, Romania, Europe.
 
 https://github.com/LincaMarius
 
@@ -49,7 +49,7 @@ All this information is necessary for understanding the operation of the SAP-1 c
 https://github.com/LincaMarius/ISAP-1_Instruction_Set
 
 ### Step 3 – Computer Simulation in Logisim
-In this step, the ISAP-1 Computer is simulated in the Logisim program, testing functionality from a logical point of view before creating the electrical diagram or physical circuit.
+In this step, the ISAP-1 Computer is simulated using Logisim software, testing functionality from a logical point of view before creating the electrical diagram or physical circuit.
 
 In this way, design errors can be detected that can lead to wasted time later with debugging with a product that is partially functional or totally non-functional.
 
@@ -75,7 +75,7 @@ These programs are written in assembly code specific to the SAP-1 computer.
 
 Like any other computer, the ISAP-1 only recognizes and interprets instructions as binary code.
 
-Since there is no Assembler program that recognizes the syntax of the SAP-1 and ISAP-1 computer, the conversion from assembly language to binary code will be done manually.
+Since there is no Assembler software that recognizes the syntax of the SAP-1 and ISAP-1 computer, the conversion from assembly language to binary code will be done manually.
 
 All programs that can run on SAP-1 and ISAP-1 computers are here: \
 https://github.com/LincaMarius/ISAP-1_Programs
@@ -88,8 +88,6 @@ In this version I have restored the original schematic of the SAP-1 computer to 
 I used the same electronic components and kept the chip numbering from the original schematic.
 
 The original computer has a built-in power supply with a mains transformer and a linear regulator. 
-
-The ISAP-1 computer can be powered using an external 5 Volt DC power source with a Barrel Jack or a USB type A connector.
 
 The operating mode of the SAP-1 computer is to set the "Programming" mode and edit the RAM memory contents, then switch to "Run" mode when the program is executed and the result is displayed on the digital display.
 
