@@ -108,7 +108,7 @@ The implementation of the Variable Machine Cycle is done inside the Control Bloc
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
 
-### Step 2 – Instruction Set Analysis
+### Instruction Set Analysis
 The instruction set does not change, but we need to update the timing diagrams and Boolean equations to incorporate the Variable Machine Cycle.
 
 https://github.com/LincaMarius/ISAP-1_Instruction_Set
