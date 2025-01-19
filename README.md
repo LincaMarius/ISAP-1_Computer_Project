@@ -111,9 +111,9 @@ https://github.com/LincaMarius/ISAP-1_Block_Diagram
 ### Instruction Set Analysis
 The instruction set does not change, but we need to update the timing diagrams and Boolean equations to incorporate the Variable Machine Cycle.
 
-https://github.com/LincaMarius/ISAP-1_Instruction_Set
+https://github.com/LincaMarius/ISAP-1_Instruction_Set?tab=readme-ov-file#isap-1-model-a-version-11
 
-### Step 3 – Computer Simulation in Logisim
+### Computer Simulation in Logisim
 Since we are modifying the structure of the Control Block, we also need to modify the simulation of the ISAP-1 computer in the Logisim program.
 
 https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
