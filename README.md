@@ -103,6 +103,7 @@ The schematic is shown in Figure 10-7 and consists of 5 inverters and a 12-input
 
 We can note that the SAP-1 Computer schematic is not modified to implement this functionality, only two logic gates are added.
 
+### Block Diagram optimization
 The implementation of the Variable Machine Cycle is done inside the Control Block so the Block Diagram of the ISAP-1 Computer remains unchanged.
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
