@@ -116,23 +116,23 @@ https://github.com/LincaMarius/ISAP-1_Instruction_Set?tab=readme-ov-file#isap-1-
 ### Computer Simulation in Logisim
 Since we are modifying the structure of the Control Block, we also need to modify the simulation of the ISAP-1 computer in the Logisim program.
 
-https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
+https://github.com/LincaMarius/ISAP-1_Logisim_Simulation?tab=readme-ov-file#isap-1-model-a-version-11
 
-### Step 4 – Control Block Design using Combinational Logic
+### Control Block Design using Combinational Logic
 This step is necessary to complete the previous step.
 
-https://github.com/LincaMarius/ISAP-1_Control_Unit
+https://github.com/LincaMarius/ISAP-1_Control_Unit#isap-1-model-a-version-11
 
-### Step 5 – ISAP-1 Computer Test Programs
-In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation level by running programs designed for this purpose.
+### ISAP-1 Computer Test Programs
+All programs that run on the SAP-1 Model A Version 1 computer can also run without problems on the ISAP-1 Model A Version 1.1 computer.
 
-All programs that can run on SAP-1 and ISAP-1 computers are here: \
+All programs that can run on ISAP-1 Model A Version 1 and ISAP-1 Model A Version 1.1 computers are here: \
 https://github.com/LincaMarius/ISAP-1_Programs
 
-### Step 6 – Electronic Schematic Design
+### Electronic Schematic Design
 In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
 
-The Schematic of the ISAP-1 Model A computer Version 1.1 edited using the KiCAD program can be found here: \
+The Schematic of the ISAP-1 Model A Computer Version 1.1 edited using the KiCAD program can be found here: \
 https://github.com/LincaMarius/ISAP-1_Schematic
 
 ## ISAP-1 Model B Version 1
