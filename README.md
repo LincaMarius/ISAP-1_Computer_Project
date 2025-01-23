@@ -131,27 +131,7 @@ https://github.com/LincaMarius/ISAP-1_Programs
 In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
 
 The Schematic of the ISAP-1 Model A Computer Version 1.1 edited using the KiCAD program can be found here: \
-https://github.com/LincaMarius/ISAP-1_Schematic
-
-## ISAP-1 Model A Version 1.2
-In this version I want to implement the Unconditional Jump instruction - JMP.
-
-The JMP instruction will have the code 0x03. The JMP instruction will have as a parameter the memory address where the jump is made.
-
-### Block Diagram optimization
-The implementation of the JMP Instruction is done inside the Control Block so the Block diagram of the ISAP-1 Computer remains unchanged.
-
-https://github.com/LincaMarius/ISAP-1_Block_Diagram
-
-### Instruction Set Analysis
-The Instruction Set changes by adding the JMP instruction, so we need to add the timing diagrams and Boolean equations for the new instruction.
-
-
-
-
-
-
-
+https://github.com/LincaMarius/ISAP-1_Schematic#isap-1-model-a-version-11
 
 ## ISAP-1 Model B Version 1
 Model B, I want to be an implementation of the SAP-1 computer that has the Control Unit made using microprogramming and storing microinstructions in ROM memory.
