@@ -134,24 +134,24 @@ The Schematic of the ISAP-1 Model A Computer Version 1.1 edited using the KiCAD 
 https://github.com/LincaMarius/ISAP-1_Schematic#isap-1-model-a-version-11
 
 ## ISAP-1 Model B Version 1
-Model B, I want to be an implementation of the SAP-1 computer that has the Control Unit made using microprogramming and storing microinstructions in ROM memory.
+Model B, I want to be an implementation of the SAP-1 Computer that has the Control Unit made using microprogramming and storing microinstructions in ROM memory.
 
-I want Version 1 to be an implementation of the SAP-1 computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
+I want Version 1 to be an implementation of the SAP-1 Computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
 
 ### Step 1 – Block Diagram optimization
-The Block Diagram remains unchanged for Model B of the SAP-1 or ISAP-1 computer compared to Model A.
+The Block Diagram remains unchanged for Model B of the SAP-1 and ISAP-1 Computers compared to Model A Version 1.0.
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
 
 ### Step 2 – Instruction Set Analysis
-The Instruction Set remains unchanged for Model B of the SAP-1 and ISAP-1 computers compared to Model A.
+The Instruction Set remains unchanged for the Model B of the SAP-1 and ISAP-1 Computers compared to the Model A Version 1.0.
 
 https://github.com/LincaMarius/ISAP-1_Instruction_Set
 
 ### Step 3 – Computer Simulation in Logisim
-In this step, the ISAP-1 Model B Computer is simulated in the Logisim program, where functionality is tested from a logical point of view before creating the electrical diagram or physical circuit.
+In this step, the ISAP-1 Model B Computer is simulated in Logisim software, where functionality is tested from a logical point of view before creating the electrical diagram or physical circuit.
 
-The design and simulation of the ISAP-1 Computer Model B Version 1 using the Logisim program is presented here: \
+The design and simulation of the ISAP-1 Model B Version 1.0 computer using Logisim software is presented here: \
 https://github.com/LincaMarius/ISAP-1_Logisim_Simulation#isap-1-revision-b-version-1
 
 ### Step 4 – Control Block Design using Programmed Logic
