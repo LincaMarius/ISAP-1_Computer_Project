@@ -152,7 +152,7 @@ https://github.com/LincaMarius/ISAP-1_Instruction_Set
 In this step, the ISAP-1 Model B Computer is simulated in Logisim software, where functionality is tested from a logical point of view before creating the electrical diagram or physical circuit.
 
 The design and simulation of the ISAP-1 Model B Version 1.0 computer using Logisim software is presented here: \
-https://github.com/LincaMarius/ISAP-1_Logisim_Simulation#isap-1-revision-b-version-1
+https://github.com/LincaMarius/ISAP-1_Logisim_Simulation#isap-1-model-b-version-10
 
 ### Step 4 – Control Block Design using Programmed Logic
 This step is necessary to complete the previous step.
@@ -161,13 +161,13 @@ Here I modified the Control Block diagram according to the instructions in the b
 
 The goal was to design the Control Block used in the implementation of the Control Matrix using ROM memories instead of logic gates.
 
-This was accomplished because in the end I obtained the scheme that uses only 10 chips compared to 18 chips in the previous implementation of the Model A.
-https://github.com/LincaMarius/ISAP-1_Control_Unit#revision-b-version-1
+This was accomplished because in the end I obtained the scheme that uses only 10 chips compared to 18 chips in the previous implementation of the Model A. \
+https://github.com/LincaMarius/ISAP-1_Control_Unit#isap-1-model-b-version-10
 
 ### Step 5 – ISAP-1 Computer Test Programs
 In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation level by running programs designed for this purpose.
 
-The Model B Version of the ISAP-1 computer successfully ran all the programs here: \
+The Model B Version 1.0 of the ISAP-1 Computer successfully ran all the programs here: \
 https://github.com/LincaMarius/ISAP-1_Programs
 
 ### Step 6 – Electronic Schematic Design
