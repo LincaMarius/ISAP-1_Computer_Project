@@ -173,23 +173,25 @@ https://github.com/LincaMarius/ISAP-1_Programs
 ### Step 6 – Electronic Schematic Design
 In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
 
-The electronic schematic of the ISAP-1 Computer Model B Version 1 edited using the KiCAD program can be found here: \
-https://github.com/LincaMarius/ISAP-1_Schematic#isap-1-revision-b-version-1
+The Electronic Schematic Project of the ISAP-1 Computer Model B Version 1.0 edited using the KiCAD program can be found here: \
+https://github.com/LincaMarius/ISAP-1_Schematic#isap-1-model-b-version-10
 
 ## ISAP-1 Model B Version 1.1
 In the book on page 163 the authors present a method of improving the SAP-1 Computer by implementing the Variable Machine Cycle.
 
-The schematic is shown in Figure 10-7 and consists of a 12-input NAND gate that generates the #NOP signal when the Control Block output has the NOP instruction encoded in Hexadecimal as 3E3h and a two-input AND gate that resets the Ring Counter when the #NOP or #CLR signal is low.
+The schematic is shown in Figure 10-17 and consists of a 12-input NAND gate that generates the #NOP signal when the Control Block output has the NOP instruction encoded in Hexadecimal as 3E3h and a two-input AND gate that resets the Ring Counter when the #NOP or #CLR signal is low.
 
 We can note that the SAP-1 Computer schematic is not modified to implement this functionality, only two logic gates are added.
 
-### Step 1 – Block Diagram optimization
+### Block Diagram optimization
 The implementation of the Variable Machine Cycle is done inside the Control Block so the Block Diagram of the ISAP-1 Computer remains unchanged.
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
 
-### Step 2 – Instruction Set Analysis
+### Instruction Set Analysis
 The instruction set does not change, but we need to update the timing diagrams and Boolean equations to incorporate the Variable Machine Cycle.
+
+Thus, we have the Revision 2 Instruction Set
 
 https://github.com/LincaMarius/ISAP-1_Instruction_Set
 
