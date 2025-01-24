@@ -193,7 +193,7 @@ The instruction set does not change, but we need to update the timing diagrams a
 
 Thus, we have the Revision 2 Instruction Set
 
-https://github.com/LincaMarius/ISAP-1_Instruction_Set
+https://github.com/LincaMarius/ISAP-1_Instruction_Set#isap-1-computer-instruction-set-revision-2
 
 ### Step 3 – Computer Simulation in Logisim
 Since we are modifying the structure of the Control Block, we also need to modify the simulation of the ISAP-1 computer in the Logisim program.
