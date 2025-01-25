@@ -211,10 +211,53 @@ In this step, the functionality of the ISAP-1 computer as a whole is tested at t
 All programs that can run on SAP-1 and ISAP-1 computers are here: \
 https://github.com/LincaMarius/ISAP-1_Programs
 
-### Step 6 – Electronic Schematic Design
+### Electronic Schematic Design
 In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
 
 The Schematic of the ISAP-1 Model B computer Version 1.1 edited using the KiCAD program can be found here: \
-https://github.com/LincaMarius/ISAP-1_Schematic
+https://github.com/LincaMarius/ISAP-1_Schematic#isap-1-model-b-version-11
 
+## ISAP-1 Model B Version 1.2
+In this version I will modify the ISAP-1 Computer by changing it from a Single Board Computer to a modular version.
+
+The functionality of the Computer does not change and the Instruction Set does not change.
+
+I will make improvements to the electronic schematic by adding decoupling capacitors.
+
+### Block Diagram optimization
+The Block Scheme must be adapted to the new modular construction, this aspect has already been done
+
+https://github.com/LincaMarius/ISAP-1_Block_Diagram
+
+### Instruction Set Analysis
+The instruction set does not change, so Instruction Set Revision 2 is valid.
+
+https://github.com/LincaMarius/ISAP-1_Instruction_Set#isap-1-computer-instruction-set-revision-2
+
+### Computer Simulation in Logisim
+Since only the physical construction of the Computer is changed, the simulation in the Logisim software does not change.
+
+https://github.com/LincaMarius/ISAP-1_Logisim_Simulation#isap-1-model-b-version-11
+
+### Control Block Design using ROM memories
+Also, the Control Block does not change.
+
+https://github.com/LincaMarius/ISAP-1_Control_Unit#isap-1-model-b-version-11
+
+### ISAP-1 Computer Test Programs
+Because the Instruction Set does not change we can still use the same programs
+
+https://github.com/LincaMarius/ISAP-1_Programs
+
+### Electronic Schematic Design
+In this step I will modify the ISAP-1 Computer by changing it from a Single Board Computer to a modular version.
+
+I will make improvements to the electronic schematic by adding decoupling capacitors.
+
+Since the SAP-1 Computer was originally designed in 1975, the power supply uses a mains transformer and a Linear Voltage Regulator. This technology is specific to that time period.
+
+Nowadays building such a power supply is more expensive compared to modern switching power supplies that can be easily purchased. So I will remove the original power supply from the Project and power the Computer will be done using an external source.
+
+The electronic schematic of the ISAP-1 Model B computer Version 1.2 edited using KiCAD software can be found here: \
+https://github.com/LincaMarius/ISAP-1_Schematic
 
