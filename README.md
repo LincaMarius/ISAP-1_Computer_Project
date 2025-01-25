@@ -195,17 +195,17 @@ Thus, we have the Revision 2 Instruction Set
 
 https://github.com/LincaMarius/ISAP-1_Instruction_Set#isap-1-computer-instruction-set-revision-2
 
-### Step 3 – Computer Simulation in Logisim
+### Computer Simulation in Logisim
 Since we are modifying the structure of the Control Block, we also need to modify the simulation of the ISAP-1 computer in the Logisim program.
 
-https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
+https://github.com/LincaMarius/ISAP-1_Logisim_Simulation#isap-1-model-b-version-11
 
-### Step 4 – Control Block Design using Combinational Logic
+### Control Block Design using ROM memories
 This step is necessary to complete the previous step.
 
-https://github.com/LincaMarius/ISAP-1_Control_Unit
+https://github.com/LincaMarius/ISAP-1_Control_Unit#isap-1-model-b-version-11
 
-### Step 5 – ISAP-1 Computer Test Programs
+### ISAP-1 Computer Test Programs
 In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation level by running programs designed for this purpose.
 
 All programs that can run on SAP-1 and ISAP-1 computers are here: \
