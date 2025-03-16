@@ -1,9 +1,9 @@
 # ISAP-1 Computer
-The ISAP-1 computer is the improved version of the SAP-1 computer made by me.
+The ISAP-1 Computer is the improved version of the SAP-1 computer made by me.
 
 ISAP Computer stands for Improved Simple as Possible Computer.
 
-By: Lincă Marius Gheorghe.
+By: Lincă Marius Gheorghe,
 
 Pitești, Argeș, Romania, Europe.
 
@@ -19,8 +19,10 @@ References:
 - Ben Eater's 8 Bit computer videos. Building an 8-bit breadboard computer! https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU
 - Digital Computer Electronics - Albert Paul Malvino (Page 141).
 
-An interesting fact is that I discovered a girl who made the SAP-1 calculator using breadboards in October 2011, and Ben Eater in February 2015, so 4 years earlier! This is that video: \
- https://www.youtube.com/watch?v=KkTMICyp6xA. \ 
+An interesting fact is that I discovered a girl who made the SAP-1 calculator using breadboards in October 2011, and Ben Eater in February 2015, so 4 years earlier! This is that video:
+
+ https://www.youtube.com/watch?v=KkTMICyp6xA.
+
  She built the SAP-1 computer using breadboards for a school project. It's a pity that the video presented is not of better quality.
 
 ## ISAP-1 Model A Version 1
@@ -31,9 +33,9 @@ Model A, I want to be an implementation of the SAP-1 computer that has the Contr
 I want version 1 to be an implementation of the SAP-1 Computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
 
 ### Step 1 – Block Diagram optimization
-The first stage of any project is the realization of the block diagram through which the overall picture of the designed system can be viewed, where the component blocks and the links between them can be seen.
+The first stage of any project is drawing the Block Diagram, which allows you to visualize the overall picture of the designed system, where you can see the component blocks and the connections between them.
 
-I will do an analysis of the original Block Diagram of the SAP-1 computer.
+I did an analysis of the original Block Diagram of the SAP-1 computer here:
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
 
@@ -53,7 +55,7 @@ In this step, the ISAP-1 Computer is simulated using Logisim software, testing f
 
 In this way, design errors can be detected that can lead to wasted time later with debugging with a product that is partially functional or totally non-functional.
 
-This is the process of creating the ISAP-1 computer at the simulation level using the Logisim program, presented step by step: \
+This is the process of creating the ISAP-1 computer at the simulation level using Logisim, presented step by step: \
 https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
 
 ### Step 4 – Control Block Design using Combinational Logic
@@ -80,8 +82,8 @@ Since there is no Assembler software that recognizes the syntax of the SAP-1 and
 All programs that can run on SAP-1 and ISAP-1 computers are here: \
 https://github.com/LincaMarius/ISAP-1_Programs
 
-### Step 6 – Electronic Schematic Design
-In this step, the electronic components that will be used are chosen and the electronic diagram of the computer is designed as a complete assembly but also at the functional block level.
+### Step 6 – Schematic Design
+In this step, the electronic components that will be used are chosen and the Schematic Diagram of the computer is designed as a complete assembly but also at the functional block level.
 
 In this version I have restored the original schematic of the SAP-1 computer to preserve the original functionality.
 
