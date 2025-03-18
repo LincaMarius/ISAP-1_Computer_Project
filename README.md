@@ -25,17 +25,17 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 
  She built the SAP-1 computer using breadboards for a school project. It's a pity that the video presented is not of better quality.
 
-## ISAP-1 Model A Version 1
+## ISAP-1 TTL
 The initial version I want to be a redesign of the SAP-1 computer. For this purpose, we must go through the steps followed by the authors of the original project.
 
-Model A, I want to be an implementation of the SAP-1 computer that has the Control Unit made with logic gates.
+The TTL model, I want to be an implementation of the SAP-1 computer that is implemented only with 7400 series TTL logic gates and that has the Control Unit also made with logic gates.
 
 I want version 1 to be an implementation of the SAP-1 Computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
 
 ### Step 1 – Block Diagram optimization
 The first stage of any project is drawing the Block Diagram, which allows you to visualize the overall picture of the designed system, where you can see the component blocks and the connections between them.
 
-I did an analysis of the original Block Diagram of the SAP-1 computer here:
+I have analyzed the original Block Diagram of the SAP-1 computer and modified this Block Diagram for maximum performance and minimum complexity:
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
 
