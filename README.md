@@ -30,12 +30,13 @@ The initial version I want to be a redesign of the SAP-1 computer. For this purp
 
 The TTL model, I want to be an implementation of the SAP-1 computer that is implemented only with 7400 series TTL logic gates and that has the Control Unit also made with logic gates.
 
+### ISAP-1 TTL version 1.0
 I want version 1 to be an implementation of the SAP-1 Computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
 
 ### Step 1 – Block Diagram optimization
 The first stage of any project is drawing the Block Diagram, which allows you to visualize the overall picture of the designed system, where you can see the component blocks and the connections between them.
 
-I have analyzed the original Block Diagram of the SAP-1 computer and modified this Block Diagram for maximum performance and minimum complexity:
+The analysis of the Block Diagram of the SAP-1 computer is the starting point for the creation of the ISAP-1 computer
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
 
