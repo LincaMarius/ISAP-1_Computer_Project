@@ -47,7 +47,7 @@ I will redraw the Timing Diagrams for each instruction individually.
 
 I will also present the Truth Tables corresponding to each instruction.
 
-All this information is necessary for understanding the operation of the SAP-1 computer but also for designing the Control Block.
+All this information is necessary for understanding the operation of the SAP-1 computer but also for designing the Control Unit.
 
 https://github.com/LincaMarius/ISAP-1_Instruction_Set
 
