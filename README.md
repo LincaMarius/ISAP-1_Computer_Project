@@ -83,13 +83,14 @@ https://github.com/LincaMarius/ISAP-1_Programs
 ### Step 6 – Schematic Design
 In this step, the electronic components that will be used are chosen and the Schematic Diagram of the computer is designed as a complete assembly but also at the functional block level.
 
+#### ISAP-1 TTL Version 1.0
 In this version I have restored the original schematic of the SAP-1 computer to preserve the original functionality.
 
 I used the same electronic components and kept the chip numbering from the original schematic.
 
 The original computer has a built-in power supply with a mains transformer and a linear regulator. 
 
-The operating mode of the SAP-1 computer is to set the "Programming" mode and edit the RAM memory contents, then switch to "Run" mode when the program is executed and the result is displayed on the digital display.
+The operating mode of the SAP-1 computer is to set the "Programming" mode and edit the RAM memory contents, then switch to "Run" mode when the program is executed and the result is displayed on the binary display.
 
 So, on the display I will only have the result, and if the program is wrong I cannot verify its contents, and if one of the modules is not working correctly I cannot verify this except using test equipment.
 
