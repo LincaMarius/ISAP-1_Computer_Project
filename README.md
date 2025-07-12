@@ -36,7 +36,7 @@ The analysis of the Block Diagram of the SAP-1 computer is the starting point fo
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
 
-### Step 2 – Instruction Set Analysis
+### Instruction Set Analysis
 In this step, the original Instruction Set of the SAP-1 Computer is studied.
 
 I will redraw the Timing Diagrams for each instruction individually.
@@ -47,4 +47,12 @@ All this information is necessary for understanding the operation of the SAP-1 c
 
 https://github.com/LincaMarius/ISAP-1_Instruction_Set
 
+### Computer Simulation in Logisim
+In this step, the ISAP-1 Computer is simulated using Logisim software, testing functionality from a logical point of view before creating the electrical diagram or physical circuit.
+
+In this way, design errors can be detected that can lead to wasted time later with debugging with a product that is partially functional or totally non-functional.
+
+This is the process of creating the ISAP-1 computer at the simulation level using Logisim, presented step by step:
+
+https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
 
