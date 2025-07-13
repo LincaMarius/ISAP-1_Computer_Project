@@ -22,10 +22,10 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 
  She built the SAP-1 computer using breadboards for a school project. It's a pity that the video presented is not of better quality.
 
-## ISAP-1 version 0.1
+## ISAP-1 version 1.0
 The initial version I want to be a redesign of the SAP-1 computer. For this purpose, we must go through the steps followed by the authors of the original project.
 
-Version 0.1 will be an implementation of the SAP-1 computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
+Version 1.0 will be an implementation of the SAP-1 computer that is as close to the original as possible. This will be the reference, the starting point for creating a better version.
 
 The instruction set consists only of the NOP instruction.
 
@@ -35,36 +35,3 @@ The first stage of any project is drawing the Block Diagram, which allows you to
 The analysis of the Block Diagram of the SAP-1 computer is the starting point for the creation of the ISAP-1 computer:
 
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
-
-### Instruction Set Analysis
-In this step, the original Instruction Set of the SAP-1 Computer is studied.
-
-I will redraw the Timing Diagrams for each instruction individually.
-
-I will also present the Truth Tables corresponding to each instruction.
-
-All this information is necessary for understanding the operation of the SAP-1 computer but also for designing the Control Unit:
-
-https://github.com/LincaMarius/ISAP-1_Instruction_Set
-
-### Computer Simulation in Logisim
-In this step, the ISAP-1 Computer is simulated using Logisim software, testing functionality from a logical point of view before creating the electrical diagram or physical circuit.
-
-In this way, design errors can be detected that can lead to wasted time later with debugging with a product that is partially functional or totally non-functional.
-
-This is the process of creating the ISAP-1 computer at the simulation level using Logisim, presented step by step:
-
-https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
-
-### Control Block Design using Combinational Logic
-This step is necessary to complete the previous step.
-
-I treated the Control Block design separately because it is more complicated and involves several distinct stages.
-
-Here I designed the Control Block from scratch starting from the Boolean equations determined in step 2 when I studied the instruction set of the SAP-1 computer.
-
-The goal was to design the Control Block using only logic gates (Combinational Logic) exactly as the authors of the SAP-1 computer did.
-
-The goal was achieved, because in the end I obtained the same schematic as the one used in building the SAP-1 computer: \
-https://github.com/LincaMarius/ISAP-1_Control_Unit
-
