@@ -18,10 +18,10 @@ References:
 
 An interesting fact is that I discovered a girl who made the SAP-1 calculator using breadboards in October 2011, and Ben Eater in February 2015, so 4 years earlier! This is that video:
 
- https://www.youtube.com/watch?v=KkTMICyp6xA.
+ https://www.youtube.com/watch?v=KkTMICyp6xA
 
  She built the SAP-1 computer using breadboards for a school project. It's a pity that the video presented is not of better quality.
 
 ## ISAP-1 version 0.1
 
-https://github.com/LincaMarius/ISAP-1_Computer/ISAP-1_Computer_0_1/README.md
+https://github.com/LincaMarius/ISAP-1_Computer/ISAP-1_Computer_0_1
