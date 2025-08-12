@@ -13,3 +13,10 @@ I will also present the Truth Tables corresponding to each instruction.
 In version 0.1 we only have to implement the “Fetch” part of an instruction:
 
 https://github.com/LincaMarius/ISAP-1_Instruction_Set
+
+## Block Diagram
+The first stage of any project is drawing the Block Diagram, which allows you to visualize the overall picture of the designed system, where you can see the component blocks and the connections between them.
+
+The analysis of the Block Diagram of the SAP-1 computer is the starting point for the creation of the ISAP-1 computer:
+https://github.com/LincaMarius/ISAP-1_Block_Diagram
+
