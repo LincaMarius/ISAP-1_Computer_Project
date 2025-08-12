@@ -24,4 +24,4 @@ An interesting fact is that I discovered a girl who made the SAP-1 calculator us
 
 ## ISAP-1 version 0.1
 
-https://github.com/LincaMarius/ISAP-1_Computer/ISAP-1_Computer_0_1
+https://github.com/LincaMarius/ISAP-1_Computer/tree/main/ISAP-1_Computer_0_1
