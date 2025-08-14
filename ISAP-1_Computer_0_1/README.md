@@ -10,8 +10,6 @@ I will redraw the Timing Diagrams for each instruction individually.
 
 I will also present the Truth Tables corresponding to each instruction.
 
-In version 0.1 we only have to implement the “Fetch” part of an instruction:
-
 https://github.com/LincaMarius/ISAP-1_Instruction_Set
 
 ## Block Diagram
