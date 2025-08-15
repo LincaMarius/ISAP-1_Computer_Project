@@ -18,3 +18,9 @@ The first stage of any project is drawing the Block Diagram, which allows you to
 The analysis of the Block Diagram of the SAP-1 computer is the starting point for the creation of the ISAP-1 computer:
 https://github.com/LincaMarius/ISAP-1_Block_Diagram
 
+## Control Block Design
+This step is necessary to complete the next step.
+
+I treated the Control Block design separately because it is more complicated and involves several distinct stages.
+
+https://github.com/LincaMarius/ISAP-1_Control_Unit
