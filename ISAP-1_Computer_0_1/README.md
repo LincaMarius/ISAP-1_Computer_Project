@@ -45,3 +45,13 @@ Since there is no Assembler software that recognizes the syntax of the SAP-1 and
 All programs that can run on SAP-1 and ISAP-1 computers are here: \
 https://github.com/LincaMarius/ISAP-1_Programs
 
+## Schematic Design
+In this step, the electronic components that will be used are chosen and the Schematic Diagram of the computer is designed as a complete assembly but also at the functional block level.
+
+The ISAP-1 computer is designed in a modular form. This way, you can change a module without having to change the entire computer as in the case of a Single Board Computer.
+
+### ISAP-1 TTL TH computer
+This is the version closest to the original schematic using TTL chips and Through Hole mounting technology. \
+https://github.com/LincaMarius/ISAP-1_Schematic
+
+
