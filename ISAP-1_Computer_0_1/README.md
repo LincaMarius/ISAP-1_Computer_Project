@@ -33,3 +33,15 @@ In this way, design errors can be detected that can lead to wasted time later wi
 This is the process of creating the ISAP-1 computer at the simulation level using Logisim, presented step by step: \
 https://github.com/LincaMarius/ISAP-1_Logisim_Simulation
 
+## Test Programs for the ISAP-1 Computer
+In this step, the functionality of the ISAP-1 computer as a whole is tested at the simulation or prototype level by running programs designed for this purpose.
+
+These programs are written in assembly code specific to the SAP-1 and ISAP-1 computers, respectively.
+
+Like any other computer, the ISAP-1 only recognizes and interprets instructions as binary code.
+
+Since there is no Assembler software that recognizes the syntax of the SAP-1 and ISAP-1 computer, the conversion from assembly language to binary code will be done manually.
+
+All programs that can run on SAP-1 and ISAP-1 computers are here: \
+https://github.com/LincaMarius/ISAP-1_Programs
+
