@@ -159,3 +159,11 @@ Since no Data is read from the Bus, so no Data is transferred to the Bus, this c
 
 ![ Figure 15 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure15.png)
 
+We can conclude that in programming mode the Memory is functionally separate from the SAP-1 computer.
+
+So, functionally speaking, the Memory is simply a ROM for the SAP-1 computer.
+
+We can synthesize a Block Diagram for the Memory Subsystem of the SAP-1 and ISAP-1 computers
+
+![ Figure 16 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure16.png)
+
