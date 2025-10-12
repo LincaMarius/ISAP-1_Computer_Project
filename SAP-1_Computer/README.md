@@ -35,7 +35,7 @@ In practice, the content of the RAM memory is edited, after which its content is
 This Computer has no instruction to write data to memory. This is specific to read-only ROMs. So, one ROM can be used for each program.
 
 ### Block Diagram where only active high control signals are used
-In the Diagram in [ Figure 2 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure2.png) it can be seen that some of the control signals are active high and some are active low. This is due to the fact that the circuit diagram is optimized for the TTL integrated circuits used by the authors of the original design of the SAP-1 Computer.
+In the Diagram in [Figure 2](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure2.png) it can be seen that some of the control signals are active high and some are active low. This is due to the fact that the circuit diagram is optimized for the TTL integrated circuits used by the authors of the original design of the SAP-1 Computer.
 
 To simplify and ease the Control Block design process, I propose that in this phase of the design we only use active High control signals. This way, the Timing Diagrams in the chapter where we will study the Instruction Set will be easier to understand.
 
@@ -66,4 +66,22 @@ So, I propose to redraw the Block Diagram of the SAP-1 computer so that we can e
 We get the following Block Diagram:
 
 ![ Figure 5 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure5.png)
+
+### Separation of the Central Processing Unit
+I propose separating the component blocks of the Central Processing Unit from the other blocks of the computer. This way we will be able to focus on improving the design of only the Central Processing Unit as an entity independent of the other constructive elements of the ISAP-1 Computer.
+
+Thus, from [Figure 5](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure5.png) we will remove the following blocks:
+- Address Select Switches,
+- Program / Run Selector + Deposit,
+- Data Select Switches,
+- Address MUX,
+- 16 x 8 RAM,
+- Output Register,
+- Binary Display,
+- Clock and Reset,
+- Power Supply.
+
+The resulting Block Diagram is shown in the following figure:
+
+![ Figure 6 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure6.png)
 
