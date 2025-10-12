@@ -133,3 +133,7 @@ The Diagram of the Memory Block in Run Mode is as follows
 
 ![ Figure 11 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure11.png)
 
+From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram.
+
+![ Figure 12 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure12.png)
+
