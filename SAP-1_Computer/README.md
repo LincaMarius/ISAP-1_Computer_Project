@@ -85,3 +85,8 @@ The resulting Block Diagram is shown in the following figure:
 
 ![ Figure 6 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure6.png)
 
+In order to highlight the three system buses, we must invert the positions of the Program Counter and the Memory Address Register in the diagram.
+
+Now I have renamed the Memory Address Register as the Address Register
+
+![ Figure 7 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure7.png)
