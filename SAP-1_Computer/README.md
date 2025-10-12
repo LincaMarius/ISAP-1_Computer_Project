@@ -34,15 +34,6 @@ In practice, the content of the RAM memory is edited, after which its content is
 
 This Computer has no instruction to write data to memory. This is specific to read-only ROMs. So, one ROM can be used for each program.
 
-### Block Diagram where only active high control signals are used
-In the Diagram in [Figure 2](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure2.png) it can be seen that some of the control signals are active high and some are active low. This is due to the fact that the circuit diagram is optimized for the TTL integrated circuits used by the authors of the original design of the SAP-1 Computer.
-
-To simplify and ease the Control Block design process, I propose that in this phase of the design we only use active High control signals. This way, the Timing Diagrams in the chapter where we will study the Instruction Set will be easier to understand.
-
-The Block Diagram where only active high control signals are used, can be seen in the following figure.
-
-![ Figure 3 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure3.png)
-
 ### Identification of Computer Components
 As we learned in school, a computer can be represented by 3 distinct functional blocks:
 - CPU (Central Processing Unit),
@@ -58,7 +49,7 @@ This fact is also presented by the authors in the Book in a simplified form on p
 
 A diagram representing a computing system consisting of functional blocks CPU, RAM, I/O and buses is presented in the following figure.
 
-![ Figure 4 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure4.png)
+![ Figure 3 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure3.png)
 
 If we check the diagram of the SAP-1 computer we notice that these functional blocks are not grouped, we also cannot identify the three buses on the diagram. We are presented with only the data bus labeled "W Bus".
 
