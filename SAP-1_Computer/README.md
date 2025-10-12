@@ -151,3 +151,7 @@ The Block Diagram of the Memory Block in Programming Mode is as follows
 
 ![ Figure 13 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure13.png)
 
+From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram.
+
+![ Figure 14 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure14.png)
+
