@@ -204,3 +204,32 @@ The architecture of the SAP-1 computer up to this point is as follows:
 
 ![ Figure 19 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure19.png)
 
+We can distinguish the three subsystems of the computer:
+- The SAP-1 CPU
+- The Memory Subsystem
+- Inputs/Outputs Subsystem
+
+They are interconnected through the three buses:
+- 4-bit Address Bus
+- 8-bit Data Bus
+- 7-bit Control Bus
+
+The available address space for the SAP-1 computer in this structure is:
+- 16 bytes of Program Memory
+- 1 Output Devices
+
+The original Instruction Set of the SAP-1 computer is:
+| Mnemonic | Opcode | Operation                                  |
+|----------|--------|--------------------------------------------|
+| LDA      | 0000   | Load RAM data into Accumulator             |
+| ADD      | 0001   | Add RAM data to Accumulator                |
+| SUB      | 0010   | Substract RAM data from Accumulator        |
+| OUT      | 1110   | Load Accumulator data into Output Register |
+| HLT      | 1111   | Stop processing                            |
+
+From the analysis carried out so far we can draw the following conclusions:
+- the Size of Programs that can be run is only 16 bytes,
+- the SAP-1 Computer cannot retain the values of some variables because it cannot write to Memory,
+- jumps in the program cannot be made to perform repetitive tasks because it cannot be written to the Program Counter,
+- the SAP-1 Computer does not have a Stack, so program subroutines cannot be called,
+- there is no input device that allows manual data entry.
