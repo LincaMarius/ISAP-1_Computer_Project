@@ -90,3 +90,24 @@ In order to highlight the three system buses, we must invert the positions of th
 Now I have renamed the Memory Address Register as the Address Register
 
 ![ Figure 7 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure7.png)
+
+The CE signal was renamed PM = Program Memory select \
+The LM signal was renamed LAR = Load Address Register \
+The LO signal was renamed I/O = Input/Output Device select.
+
+### Control Unit structure
+The SAP-1 computer has a Control Unit made using logic gates.
+
+The Control Unit is built from three blocks:
+- Instruction Decoder,
+- Step Counter,
+- Control Matrix.
+
+The instruction decoder has the structure of a classic decoder and activates a single output depending on the instruction code presented at the input. The number of active outputs is equal to the number of instructions present in the Instruction Set.
+
+The SAP-1 computer is based on micro-step control. For this purpose, a Step Counter block is required. The authors of the SAP-1 computer used a Ring Counter to implement the Step Counter.
+
+The Control Matrix has the role of generating control signals depending on the instruction that is executed in accordance with the current micro-step.
+
+![ Figure 8 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure8.png)
+
