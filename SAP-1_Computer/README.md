@@ -58,33 +58,7 @@ We get the following Block Diagram:
 
 ![ Figure 4 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure4.png)
 
-### Separation of the Central Processing Unit
-I propose separating the component blocks of the Central Processing Unit from the other blocks of the computer. This way we will be able to focus on improving the design of only the Central Processing Unit as an entity independent of the other constructive elements of the ISAP-1 Computer.
 
-Thus, from [Figure 5](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure5.png) we will remove the following blocks:
-- Address Select Switches,
-- Program / Run Selector + Deposit,
-- Data Select Switches,
-- Address MUX,
-- 16 x 8 RAM,
-- Output Register,
-- Binary Display,
-- Clock and Reset,
-- Power Supply.
-
-The resulting Block Diagram is shown in the following figure:
-
-![ Figure 6 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure6.png)
-
-In order to highlight the three system buses, we must invert the positions of the Program Counter and the Memory Address Register in the diagram.
-
-Now I have renamed the Memory Address Register as the Address Register
-
-![ Figure 7 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure7.png)
-
-The CE signal was renamed PM = Program Memory select \
-The LM signal was renamed LAR = Load Address Register \
-The LO signal was renamed I/O = Input/Output Device select.
 
 ### Control Unit structure
 The SAP-1 computer has a Control Unit made using logic gates.
