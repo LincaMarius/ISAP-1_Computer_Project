@@ -58,8 +58,6 @@ We get the following Block Diagram:
 
 ![ Figure 4 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure4.png)
 
-
-
 ### Control Unit structure
 The SAP-1 computer has a Control Unit made using logic gates.
 
@@ -74,7 +72,7 @@ The SAP-1 computer is based on micro-step control. For this purpose, a Step Coun
 
 The Control Matrix has the role of generating control signals depending on the instruction that is executed in accordance with the current micro-step.
 
-![ Figure 8 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure8.png)
+![ Figure 5 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure5.png)
 
 ### Binary Display
 The simplest output device that can be connected to this Computer is a Binary Display. This device is used in the original construction of the SAP-1 Computer, where it is integrated directly into the structure of this Computer.
