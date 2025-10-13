@@ -158,7 +158,7 @@ Depending on the chosen operating mode, one of the two clock signals is selected
 
 The output of the multiplexer is taken by the buffer. Its role is to ensure the necessary fanout because the clock signal reaches all the functional blocks of the computer.
 
-![ Figure 18 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure18.png)
+![ Figure 15 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure15.png)
 
 The HLT input inhibits the clock signal when the computer has executed the HALT instruction.
 
