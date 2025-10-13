@@ -416,3 +416,17 @@ The Boolean equations for the signals that are active when the SUB instruction i
 -	SU = SUB * T6
 
 *If we implement the Control Block using Combinational Logic we will use these equations.*
+
+### OUT instruction – OUTput data from the accumulator
+Binary form:  1110 **** \
+Operation:  PORT (*) ← A \
+Example: OUT *
+
+Transfers the numeric value stored in the accumulator to Output Port.
+
+Since in the case of the SAP-1 computer we only have a single output port, it is activated using any value for the instruction parameter.
+
+The timing diagram for the OUT instruction implemented on SAP-1 Computer is as follows:
+
+![ Figure 21 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure21.png)
+
