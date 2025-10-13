@@ -269,3 +269,12 @@ The NOP instruction is not included in the SAP-1 computer's Instruction Set but 
 The original timing diagram for the NOP instruction of the SAP-1 computer is:
 
 ![ Figure 17 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure17.png)
+
+ALL UNIMPLEMENTED INSTRUCTIONS WILL BE TREATED BY THE ISP-1 CPU AS A NOP INSTRUCTION!
+
+All instructions of the SAP-1 computer are executed in 6 steps noted in the diagram and wiring diagram T1 - T6. The first 3 steps are the Fetch portion and the last 3 are the Execution portion of the instruction. The Fetch part of the statement is identical for all instructions. The Execution part is specific to each individual instruction.
+
+We can summarize the value of the control signals over time presented in these diagrams in the following table:
+
+![ Table 1](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table1.png) 
+
