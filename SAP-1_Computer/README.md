@@ -98,7 +98,7 @@ The Diagram of the Memory Block in Run Mode is as follows
 
 From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram.
 
-![ Figure 12 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure12.png)
+![ Figure 9 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure9.png)
 
 Thus, the Memory of the SAP-1 Computer in Run Mode is used as a ROM memory. Control input #CE if high disables the output which is three-state, and if low at the output, the data from the address selected by the Memory Address Register is presented on the Bus.
 
