@@ -285,3 +285,33 @@ Signals shown in Black: their activation has no influence on the Data BUS
 If we put all the output signals on columns and highlight the control signals used by the NOP instruction we obtain the Truth Table for the NOP instruction for the SAP-1 computer.
 
 ![ Table 2 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table2.png) 
+
+*If we implement the Control Block using a ROM memory, the data in this table will be used to realize its content.*
+
+The Boolean equations for the signals that are active when the NOP instruction is executed for computer SAP-1 are:
+-	EP = NOP * T1
+-	LAR = NOP * T1
+-	CP = NOP * T2
+-	PM = NOP * T3
+-	LI = NOP * T3
+
+Since steps T1, T2 and T3 are present and identical in any instruction we can say that they are independent of the executed instruction so we can rewrite the instructions as follows:
+-	EP = T1
+-	LAR = T1
+-	CP = T2
+-	PM = T3
+-	LI = T3
+
+*If we implement the Control Block using Combinational Logic we will use these equations.*
+
+### LDA instruction – LoaD the Accumulator
+Binary form:  0000 nnnn \
+Operation:  A ← [n] \
+Example: LDA 9h
+
+Loads the numeric value from Address [n] into the Accumulator.
+
+The timing diagram for the LDA instruction implemented on SAP-1 Computer is as follows:
+
+![ Figure 18 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure18.png)
+
