@@ -165,7 +165,7 @@ The HLT input inhibits the clock signal when the computer has executed the HALT 
 ### SAP-1 Computer architecture
 The architecture of the SAP-1 computer up to this point is as follows:
 
-![ Figure 19 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure19.png)
+![ Figure 16 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure16.png)
 
 We can distinguish the three subsystems of the computer:
 - The SAP-1 CPU
