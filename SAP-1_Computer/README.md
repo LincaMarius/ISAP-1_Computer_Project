@@ -475,3 +475,25 @@ Signals represented in Green: are active when reading data from the Data BUS. \
 Signals shown in Black: their activation has no influence on the Data BUS.
 
 If we put all the output signals on columns and highlight the control signals used by the HLT instruction we obtain the Truth Table for the HLT instruction for the SAP-1 computer.
+
+![ Table 12 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table12.png) 
+
+*If we implement the Control Block using a ROM memory, the data in this table will be used to realize its content.*
+
+The Boolean equations for the signals that are active when the HLT instruction is executed for computer SAP-1 are:
+-	EP = T1
+-	LAR = T1
+-	CP = T2
+-	PM = T3
+-	LI = T3
+-	HLT = HLT * T4 + HLT * T5 + HLT * T6
+
+The control signal HLT is active starting from step T4 until the last step T6. In the original design of the SAP-1 computer, a timing diagram is not shown and this instruction is briefly described.
+
+But from the schematic you can see that gate C34 in the instruction decoder is active when we have the binary code 1111 corresponding to the HLT instruction. So, the control signal HLT is not influenced by the state of the T steps.
+
+This fact can be presented graphically as in Figure 22 where we see that for any step T4 – T6 the HLT control signal is active.
+
+Because the HALT instruction blocks the clock signal and the computer can no longer function, exiting this state can only be done by resetting the computer.
+
+* If we implement the Control Block using Combinational Logic we will use these equations.*
