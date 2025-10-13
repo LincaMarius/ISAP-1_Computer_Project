@@ -278,8 +278,8 @@ We can summarize the value of the control signals over time presented in these d
 
 ![ Table 1 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table1.png) 
 
-Signals represented in Red: are active when data is written to the Data BUS
-Signals represented in Green: are active when reading data from the Data BUS
+Signals represented in Red: are active when data is written to the Data BUS \
+Signals represented in Green: are active when reading data from the Data BUS \
 Signals shown in Black: their activation has no influence on the Data BUS
 
 If we put all the output signals on columns and highlight the control signals used by the NOP instruction we obtain the Truth Table for the NOP instruction for the SAP-1 computer.
@@ -319,11 +319,35 @@ We can summarize the value of the control signals over time presented in these d
 
 ![ Table 3 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table3.png) 
 
-Signals represented in Red: are active when data is written to the Data BUS
-Signals represented in Green: are active when reading data from the Data BUS
+Signals represented in Red: are active when data is written to the Data BUS \
+Signals represented in Green: are active when reading data from the Data BUS \
 Signals shown in Black: their activation has no influence on the Data BUS
 
 If we put all the output signals on columns and highlight the control signals used by the LDA instruction we obtain the Truth Table for the LDA instruction for the SAP-1 computer.
 
 ![ Table 4 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table4.png) 
+
+*If we implement the Control Block using a ROM memory, the data in this table will be used to realize its content.*
+
+The Boolean equations for the signals that are active when the LDA instruction is executed for computer SAP-1 are:
+-	EP = T1
+-	LAR = T1 + LDA * T4
+-	CP = T2
+-	PM = T3 + LDA * T5
+-	LI = T3
+-	EI = LDA * T4
+-	LA = LDA * T5
+
+*If we implement the Control Block using Combinational Logic we will use these equations.*
+
+### ADD instruction – ADD to accumulator
+Binary form:  0001 nnnn\
+Operation:  A ← A + [n]\
+Example: ADD 8h
+
+Adds the numeric value at address [n] with the numeric value stored in the Accumulator and stores the result in the Accumulator.
+
+The timing diagram for the ADD instruction implemented on SAP-1 Computer is as follows:
+
+![ Figure 19 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure19.png)
 
