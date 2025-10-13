@@ -276,5 +276,12 @@ All instructions of the SAP-1 computer are executed in 6 steps noted in the diag
 
 We can summarize the value of the control signals over time presented in these diagrams in the following table:
 
-![ Table 1](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table1.png) 
+![ Table 1 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table1.png) 
 
+Signals represented in Red: are active when data is written to the Data BUS
+Signals represented in Green: are active when reading data from the Data BUS
+Signals shown in Black: their activation has no influence on the Data BUS
+
+If we put all the output signals on columns and highlight the control signals used by the NOP instruction we obtain the Truth Table for the NOP instruction for the SAP-1 computer.
+
+![ Table 2 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table2.png) 
