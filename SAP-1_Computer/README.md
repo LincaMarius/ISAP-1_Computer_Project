@@ -430,3 +430,6 @@ The timing diagram for the OUT instruction implemented on SAP-1 Computer is as f
 
 ![ Figure 21 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure21.png)
 
+We can summarize the value of the control signals over time presented in this diagram in the following table:
+
+![ Table 9 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table9.png) 
