@@ -137,7 +137,7 @@ The Reset circuit has the role of bringing the computer back to its initial stat
 
 The block diagram of the reset circuit is shown in the following figure
 
-![ Figure 17 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure17.png)
+![ Figure 14 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure14.png)
 
 The circuit consists of a switch marked S5 with two positions followed by a debouncing circuit consisting of an RS flip-flop in the case of the SAP-1 computer.
 
