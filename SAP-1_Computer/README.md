@@ -90,11 +90,11 @@ The following figure shows the Memory block of the SAP-1 computer.
 
 The Memory has two operating modes, dictated by the position of switch S2.
 
-When S2 is in the Run position, the PGM signal is low and causes the Address Multiplexer to select the address from the input connected to the Memory Address Register. Also, the CE control signal is connected to the #CE control pin of the RAM. The SAP-1 computer in this mode executes the program from memory.
+When S2 is in the Run position, the /PGM signal is low and causes the Address Multiplexer to select the address from the input connected to the Memory Address Register. Also, the /CE control signal is connected to the /CE control pin of the RAM. The SAP-1 computer in this mode executes the program from memory.
 
 The Diagram of the Memory Block in Run Mode is as follows
 
-![ Figure 11 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure11.png)
+![ Figure 8 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure8.png)
 
 From this Diagram the Multiplexer can be ignored and we can obtain a simpler and easier to understand Diagram.
 
