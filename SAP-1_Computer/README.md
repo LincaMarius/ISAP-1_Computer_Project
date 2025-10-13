@@ -351,3 +351,7 @@ The timing diagram for the ADD instruction implemented on SAP-1 Computer is as f
 
 ![ Figure 19 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure19.png)
 
+We can summarize the value of the control signals over time shown in these diagrams in the following table:
+
+![ Table 5 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table5.png) 
+
