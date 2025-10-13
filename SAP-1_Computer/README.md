@@ -81,7 +81,7 @@ My version of the Block Diagram is identical to the original, except that I trea
 
 The output device consists of a register where 8 bits are written when the I/O control signal is activated and the rising edge of the clock occurs. Each bit from the output of this register is connected to an LED. This is a Binary Display.
 
-![ Figure 9 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure9.png)
+![ Figure 6 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure6.png)
 
 ### Memory Subsystem
 The following figure shows the Memory block of the SAP-1 computer.
