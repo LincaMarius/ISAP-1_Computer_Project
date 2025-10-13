@@ -466,3 +466,12 @@ The timing diagram for the HLT instruction implemented on SAP-1 Computer is as f
 
 ![ Figure 22 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Pictures/Figure22.png)
 
+We can summarize the value of the control signals over time presented in this diagram in the following table:
+
+![ Table 11 ](https://github.com/LincaMarius/ISAP-1_Computer_Project/blob/main/SAP-1_Computer/Tables/Table11.png) 
+
+Signals represented in Red: are active when data is written to the Data BUS. \
+Signals represented in Green: are active when reading data from the Data BUS. \
+Signals shown in Black: their activation has no influence on the Data BUS.
+
+If we put all the output signals on columns and highlight the control signals used by the HLT instruction we obtain the Truth Table for the HLT instruction for the SAP-1 computer.
